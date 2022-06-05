@@ -1,0 +1,43 @@
+[INFO ] [2022-06-04 20:56:21,776] Open Home Page
+[INFO ] [2022-06-04 20:56:21,854] Step 1: Click to 'Register' link on header menu
+[INFO ] [2022-06-04 20:56:22,327] Step 2: Click to 'Register' button
+[INFO ] [2022-06-04 20:56:22,612] Step 3: Verify error 'First Name' message
+[INFO ] [2022-06-04 20:56:22,651]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:22,653] Step 4: Verify error 'Last Name' message
+[INFO ] [2022-06-04 20:56:22,681]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:22,681] Step 5: Verify error 'Email' message
+[INFO ] [2022-06-04 20:56:22,713]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:22,713] Step 6: Verify error 'Password' message
+[INFO ] [2022-06-04 20:56:22,745]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:22,745] Step 7: Verify error 'Confirm Password' message
+[INFO ] [2022-06-04 20:56:22,777]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:22,860] Step 8: Refesh 'Register' 
+[INFO ] [2022-06-04 20:56:23,372] Step 9: Enter to 'First Name' textbox
+[INFO ] [2022-06-04 20:56:23,461] Step 10: Enter to 'Last Name' textbox
+[INFO ] [2022-06-04 20:56:23,553] Step 11: Enter to 'Email' textbox
+[INFO ] [2022-06-04 20:56:23,645] Step 12: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-04 20:56:23,740] Step 13: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-04 20:56:23,833] Step 14: Click to 'Register' button 
+[INFO ] [2022-06-04 20:56:24,108] Step 15: Verify error 'Email' message
+[INFO ] [2022-06-04 20:56:24,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:24,151] Step 16: Refesh 'Register' 
+[INFO ] [2022-06-04 20:56:25,213] Step 9: Enter to 'First Name' textbox
+[INFO ] [2022-06-04 20:56:25,302] Step 10: Enter to 'Last Name' textbox
+[INFO ] [2022-06-04 20:56:25,399] Step 11: Enter to 'Email' textbox
+[INFO ] [2022-06-04 20:56:25,496] Step 12: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-04 20:56:25,583] Step 13: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-04 20:56:25,676] Step 14: Click to 'Register' button 
+[INFO ] [2022-06-04 20:56:26,415] Step 15: Verify Success Message
+[INFO ] [2022-06-04 20:56:26,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:26,455] Step 16: Click to 'Log out' button
+[INFO ] [2022-06-04 20:56:27,120] Step 17: Click to 'Register' link on header menu
+[INFO ] [2022-06-04 20:56:27,136] Step 9: Enter to 'First Name' textbox
+[INFO ] [2022-06-04 20:56:27,515] Step 10: Enter to 'Last Name' textbox
+[INFO ] [2022-06-04 20:56:27,608] Step 11: Enter to 'Email' textbox
+[INFO ] [2022-06-04 20:56:27,708] Step 12: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-04 20:56:27,796] Step 13: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-04 20:56:27,888] Step 14: Click to 'Register' button 
+[INFO ] [2022-06-04 20:56:28,273] Step 15: Verify Success Message
+[INFO ] [2022-06-04 20:56:28,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-04 20:56:28,312] Step 16: Refesh 'Register' 
+[INFO ] [2022-06-04 20:56:33,370] Step 3: Enter to 'First Name' textbox

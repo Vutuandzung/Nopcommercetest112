@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Run on Firefox</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Run on Firefox</h1>
+<p>
+  Test duration: 10.494s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Register_User_Nopcommerce</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_04_Register_Short_Password
+      </td>
+  <td class="duration">
+    0.097s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-04 09:08:23,295] Step 16: Refesh 'Register' 
+<br>
+                                [INFO ] [2022-06-04 09:08:23,360] Step 3: Enter to 'First Name' textbox
+<br>
+                                <br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_04_Register_Short_Password_04_06_2022_09_08_23.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_04_Register_Short_Password_04_06_2022_09_08_23.png" height='100' width='150'/> </a></br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: <br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14548, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
+*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+              commons.BasePage.waitForElementVisisble(BasePage.java:393)<br />
+              commons.BasePage.sendKeyToTextBoxByName(BasePage.java:457)<br />
+              com.nopcommerce.user.Register_User_Nopcommerce.TC_04_Register_Short_Password(Register_User_Nopcommerce.java:120)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
+              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
+              java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br />
+              java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br />
+              java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br />
+              java.base/java.lang.Thread.run(Thread.java:834)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Register_User_Nopcommerce</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Register_Empty_Data
+      </td>
+  <td class="duration">
+    0.900s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-04 09:08:18,484] Step 1: Click to 'Register' link on header menu
+<br>
+                                [INFO ] [2022-06-04 09:08:18,928] Step 2: Click to 'Register' button
+<br>
+                                [INFO ] [2022-06-04 09:08:19,219] Step 3: Verify error 'First Name' message
+<br>
+                                [INFO ] [2022-06-04 09:08:19,257]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-04 09:08:19,258] Step 4: Verify error 'Last Name' message
+<br>
+                                [INFO ] [2022-06-04 09:08:19,288]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-04 09:08:19,288] Step 5: Verify error 'Email' message
+<br>
+                                [INFO ] [2022-06-04 09:08:19,318]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-04 09:08:19,318] Step 6: Verify error 'Password' message
+<br>
+                                [INFO ] [2022-06-04 09:08:19,350]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-04 09:08:19,350] Step 7: Verify error 'Confirm Password' message
+<br>
+                                [INFO ] [2022-06-04 09:08:19,381]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_02_Register_Invalid_Email
+      </td>
+  <td class="duration">
+    1.877s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-04 09:08:19,384] Step 8: Refesh 'Register' 
+<br>
+                                [INFO ] [2022-06-04 09:08:20,460] Step 9: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:20,559] Step 10: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:20,652] Step 11: Enter to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:20,746] Step 12: Enter to 'Passowrd' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:20,842] Step 13: Enter to 'Confirm Password' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:20,933] Step 14: Click to 'Register' button 
+<br>
+                                [INFO ] [2022-06-04 09:08:21,220] Step 15: Verify error 'Email' message
+<br>
+                                [INFO ] [2022-06-04 09:08:21,259]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Register_Existed_Email
+      </td>
+  <td class="duration">
+    2.026s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-04 09:08:21,261] Step 16: Refesh 'Register' 
+<br>
+                                [INFO ] [2022-06-04 09:08:22,393] Step 9: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:22,497] Step 10: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:22,588] Step 11: Enter to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:22,686] Step 12: Enter to 'Passowrd' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:22,775] Step 13: Enter to 'Confirm Password' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:22,869] Step 14: Click to 'Register' button 
+<br>
+                                [INFO ] [2022-06-04 09:08:23,259] Step 15: Verify error 'Email' message
+<br>
+                                [INFO ] [2022-06-04 09:08:23,286]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Register_Valid_Information
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-04 09:08:23,441] Step 1: Click to 'Register' page on header menu
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 2: Click to 'Gender' redio button on
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Passowrd' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Confirm Password' textbox
+<br>
+                                [INFO ] [2022-06-04 09:08:23,441] Step 4: Click to 'Register' button 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

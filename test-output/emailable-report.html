@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">NopCommerce User</th></tr>
+<tr><td><a href="#t0">Run on Firefox</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,800</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NopCommerce User</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nopcommerce.user.Register_User_Nopcommerce</td><td><a href="#m0">TC_05_Register_Short_Password</a></td><td rowspan="1">1654401388311</td><td rowspan="1">5104</td></tr><tr><th colspan="4">Run on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.nopcommerce.user.Register_User_Nopcommerce</td><td><a href="#m1">TC_01_Register_Empty_Data</a></td><td rowspan="1">1654401381796</td><td rowspan="1">981</td></tr><tr class="passedeven"><td><a href="#m2">TC_02_Register_Invalid_Email</a></td><td rowspan="1">1654401382858</td><td rowspan="1">1283</td></tr><tr class="passedeven"><td><a href="#m3">TC_03_Register_Valid_Information</a></td><td rowspan="1">1654401384149</td><td rowspan="1">2966</td></tr><tr class="passedeven"><td><a href="#m4">TC_04_Register_Exist_Email</a></td><td rowspan="1">1654401387117</td><td rowspan="1">1193</td></tr></tbody>
+</table>
+<h2>Run on Firefox</h2><h3 id="m0">com.nopcommerce.user.Register_User_Nopcommerce#TC_05_Register_Short_Password</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-06-04 20:56:28,312] Step 16: Refesh 'Register' 
+<br><br/>[INFO ] [2022-06-04 20:56:33,370] Step 3: Enter to 'First Name' textbox
+<br><br/><br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png" height='100' width='150'/> </a></br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b5656d00-8086-42dc-a712-0eae77cce054
+*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at commons.BasePage.waitForElementVisisble(BasePage.java:405)
+	at commons.BasePage.sendKeyToTextBoxByName(BasePage.java:469)
+	at com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password(Register_User_Nopcommerce.java:155)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.user.Register_User_Nopcommerce#TC_01_Register_Empty_Data</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-06-04 20:56:21,854] Step 1: Click to 'Register' link on header menu
+<br><br/>[INFO ] [2022-06-04 20:56:22,327] Step 2: Click to 'Register' button
+<br><br/>[INFO ] [2022-06-04 20:56:22,612] Step 3: Verify error 'First Name' message
+<br><br/>[INFO ] [2022-06-04 20:56:22,651]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2022-06-04 20:56:22,653] Step 4: Verify error 'Last Name' message
+<br><br/>[INFO ] [2022-06-04 20:56:22,681]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2022-06-04 20:56:22,681] Step 5: Verify error 'Email' message
+<br><br/>[INFO ] [2022-06-04 20:56:22,713]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2022-06-04 20:56:22,713] Step 6: Verify error 'Password' message
+<br><br/>[INFO ] [2022-06-04 20:56:22,745]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2022-06-04 20:56:22,745] Step 7: Verify error 'Confirm Password' message
+<br><br/>[INFO ] [2022-06-04 20:56:22,777]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nopcommerce.user.Register_User_Nopcommerce#TC_02_Register_Invalid_Email</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-06-04 20:56:22,860] Step 8: Refesh 'Register' 
+<br><br/>[INFO ] [2022-06-04 20:56:23,372] Step 9: Enter to 'First Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:23,461] Step 10: Enter to 'Last Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:23,553] Step 11: Enter to 'Email' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:23,645] Step 12: Enter to 'Passowrd' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:23,740] Step 13: Enter to 'Confirm Password' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:23,833] Step 14: Click to 'Register' button 
+<br><br/>[INFO ] [2022-06-04 20:56:24,108] Step 15: Verify error 'Email' message
+<br><br/>[INFO ] [2022-06-04 20:56:24,141]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nopcommerce.user.Register_User_Nopcommerce#TC_03_Register_Valid_Information</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-06-04 20:56:24,151] Step 16: Refesh 'Register' 
+<br><br/>[INFO ] [2022-06-04 20:56:25,213] Step 9: Enter to 'First Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:25,302] Step 10: Enter to 'Last Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:25,399] Step 11: Enter to 'Email' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:25,496] Step 12: Enter to 'Passowrd' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:25,583] Step 13: Enter to 'Confirm Password' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:25,676] Step 14: Click to 'Register' button 
+<br><br/>[INFO ] [2022-06-04 20:56:26,415] Step 15: Verify Success Message
+<br><br/>[INFO ] [2022-06-04 20:56:26,455]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2022-06-04 20:56:26,455] Step 16: Click to 'Log out' button
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nopcommerce.user.Register_User_Nopcommerce#TC_04_Register_Exist_Email</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2022-06-04 20:56:27,120] Step 17: Click to 'Register' link on header menu
+<br><br/>[INFO ] [2022-06-04 20:56:27,136] Step 9: Enter to 'First Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:27,515] Step 10: Enter to 'Last Name' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:27,608] Step 11: Enter to 'Email' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:27,708] Step 12: Enter to 'Passowrd' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:27,796] Step 13: Enter to 'Confirm Password' textbox
+<br><br/>[INFO ] [2022-06-04 20:56:27,888] Step 14: Click to 'Register' button 
+<br><br/>[INFO ] [2022-06-04 20:56:28,273] Step 15: Verify Success Message
+<br><br/>[INFO ] [2022-06-04 20:56:28,310]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
