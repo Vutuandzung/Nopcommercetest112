@@ -1,196 +1,1839 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="6" total="50" passed="42" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:21,776] Open Home Page
+      <![CDATA[[INFO ] [2022-06-09 13:01:26,605] Open Home Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:21,854] Step 1: Click to 'Register' link on header menu
+      <![CDATA[[INFO ] [2022-06-09 13:01:26,665] Step 1: Click to 'Register' link on header menu
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,327] Step 2: Click to 'Register' button
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,501] Step 2: Click to 'Register' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,612] Step 3: Verify error 'First Name' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,691] Step 3: Verify error 'First Name' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,651]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,770]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,653] Step 4: Verify error 'Last Name' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,772] Step 4: Verify error 'Last Name' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,681]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,848]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,681] Step 5: Verify error 'Email' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,848] Step 5: Verify error 'Email' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,713]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,926]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,713] Step 6: Verify error 'Password' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:27,927] Step 6: Verify error 'Password' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,745]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,005]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,745] Step 7: Verify error 'Confirm Password' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,005] Step 7: Verify error 'Confirm Password' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,777]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,079]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:22,860] Step 8: Refesh 'Register' 
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,162] Step 8: Refesh 'Register' 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,372] Step 9: Enter to 'First Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,642] Step 9: Enter to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,461] Step 10: Enter to 'Last Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:28,878] Step 10: Enter to 'Last Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,553] Step 11: Enter to 'Email' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:29,115] Step 11: Enter to 'Email' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,645] Step 12: Enter to 'Passowrd' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:29,326] Step 12: Enter to 'Passowrd' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,740] Step 13: Enter to 'Confirm Password' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:29,573] Step 13: Enter to 'Confirm Password' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:23,833] Step 14: Click to 'Register' button 
+      <![CDATA[[INFO ] [2022-06-09 13:01:29,798] Step 14: Click to 'Register' button 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:24,108] Step 15: Verify error 'Email' message
+      <![CDATA[[INFO ] [2022-06-09 13:01:29,964] Step 15: Verify error 'Email' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:24,141]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:30,062]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:24,151] Step 16: Refesh 'Register' 
+      <![CDATA[[INFO ] [2022-06-09 13:01:30,079] Step 16: Refesh 'Register' 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,213] Step 9: Enter to 'First Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:30,096] Step 17: Enter to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,302] Step 10: Enter to 'Last Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:30,744] Step 18: Enter to 'Last Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,399] Step 11: Enter to 'Email' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:30,957] Step 19: Enter to 'Email' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,496] Step 12: Enter to 'Passowrd' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:31,225] Step 20: Enter to 'Passowrd' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,583] Step 13: Enter to 'Confirm Password' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:31,436] Step 21: Enter to 'Confirm Password' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:25,676] Step 14: Click to 'Register' button 
+      <![CDATA[[INFO ] [2022-06-09 13:01:31,653] Step 22: Click to 'Register' button 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:26,415] Step 15: Verify Success Message
+      <![CDATA[[INFO ] [2022-06-09 13:01:32,713] Step 23: Verify Success Message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:26,455]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:32,800]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:26,455] Step 16: Click to 'Log out' button
+      <![CDATA[[INFO ] [2022-06-09 13:01:32,800] Step 24: Click to 'Log out' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,120] Step 17: Click to 'Register' link on header menu
+      <![CDATA[[INFO ] [2022-06-09 13:01:33,727] Step 25: Refesh 'Register' 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,136] Step 9: Enter to 'First Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:34,813] Step 26: Enter to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,515] Step 10: Enter to 'Last Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:35,051] Step 27: Enter to 'Last Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,608] Step 11: Enter to 'Email' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:35,291] Step 28: Enter to 'Email' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,708] Step 12: Enter to 'Passowrd' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:35,521] Step 29: Enter to 'Passowrd' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,796] Step 13: Enter to 'Confirm Password' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:35,734] Step 30: Enter to 'Confirm Password' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:27,888] Step 14: Click to 'Register' button 
+      <![CDATA[[INFO ] [2022-06-09 13:01:35,954] Step 31: Click to 'Register' button 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:28,273] Step 15: Verify Success Message
+      <![CDATA[[INFO ] [2022-06-09 13:01:36,124] Step 32: Verify error 'Password' message
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:28,310]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2022-06-09 13:01:36,204]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:28,312] Step 16: Refesh 'Register' 
+      <![CDATA[[INFO ] [2022-06-09 13:01:36,214] Step 33: Click to 'Register' link on header menu
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2022-06-04 20:56:33,370] Step 3: Enter to 'First Name' textbox
+      <![CDATA[[INFO ] [2022-06-09 13:01:36,239] Step 34: Enter to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png" height='100' width='150'/> </a></br>]]>
+      <![CDATA[[INFO ] [2022-06-09 13:01:36,891] Step 35: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:37,116] Step 36: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:37,338] Step 37: Enter to 'Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:37,566] Step 38: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:37,778] Step 39: Click to 'Register' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:38,406] Step 40: Verify Success Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:38,488]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:38,491] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:38,491] Driver instance name = remotewebdriver: chrome on windows (e8130cea6105b8b47389773ac94041c6)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:41,464] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:41,464] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:42,299] Step 2: Click to 'Login' button with empty data
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:42,476] Step 2: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:42,555]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:42,560] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:42,578] Step 4: Enter ivalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,211] Step 5: Enter password to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,465] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,626] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,698]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,703] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:43,717] Step 4: Enter ivalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:44,314] Step 5: Enter password to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:44,549] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:45,152] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:45,228]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:45,234] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:45,262] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:45,883] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:46,483] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:46,557]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:46,561] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:46,575] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:47,198] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:47,418] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,009] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,088]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,091] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,105] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,724] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:48,932] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:49,871] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:49,942]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:49,967] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:49,967] Driver instance name = remotewebdriver: chrome on windows (466f26c10abaced86b00334b21dd7c7d)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:56,537] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:56,538] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:57,453] Step 4: Enter  email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:57,689] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:57,906] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:58,828] Step 3: Click to 'My Account' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:01:59,670] Step 3: Click to 'Customer Info' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:00,295] Step 3: Click to 'Gender' radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:00,493] Step 3: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:00,727] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:00,933] Step 3: Sellect 'Day' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:01,152] Step 3: Sellect 'Month' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:01,387] Step 3: Sellect 'Year' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:01,619] Step 3: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:01,851] Step 3: Enter to 'Company Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:02,143] Step 3: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,126] Step 3: Verify 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,248]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,248] Step 3: Verify 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,373]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,373] Step 3: Verify 'Day' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,582]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,582] Step 3: Verify 'Month' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,781]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:03,781] Step 3: Verify 'Year' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,017]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,017] Step 3: Verify 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,131]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,131] Step 3: Verify 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,277]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:05,285] Step 3: Click to 'Address' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:07,396] Step 3: Click to 'Add New' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:08,463] Step 3: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:08,971] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:09,350] Step 3: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:09,585] Step 3: Enter to 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:09,803] Step 3: Select 'Country' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:10,027] Step 3: Select 'State' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:10,336] Step 3: Enter to 'City' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:10,559] Step 3: Enter to 'Address 1' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:10,780] Step 3: Enter to 'Address 2' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:11,012] Step 3: Enter to 'Zip / postal code' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:11,238] Step 3: Enter to 'Phone number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:11,455] Step 3: Enter to 'Fax number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:11,673] Step 3: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,667] Step 3: Verify name
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,751]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,752] Step 3: Verify 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,828]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,828] Step 3: Verify 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,908]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:12,908] Step 3: Verify 'Country' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,000]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,000] Step 3: Verify 'Address 1' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,078]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,078] Step 3: Verify 'Address 2' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,156]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,156] Step 3: Verify 'Zip / postal code' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,241]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,241] Step 3: Verify 'Phone number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,323]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,323] Step 3: Verify 'Fax number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,401]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:13,407] Step 3: Click to 'Change password' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:14,208] Step 3: Enter to 'Old Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:14,423] Step 3: Enter to 'New Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:14,632] Step 3: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:14,855] Step 3: Click to 'Change password' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:15,481] Step 3: Close 'Password was changed'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:15,640] Step 3: Click to 'Log out' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:16,414] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:17,030] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:17,260] Step 5: Enter old password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:17,481] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:18,080] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:18,161]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:18,161] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:18,185] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:18,801] Step 5: Enter new password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:19,011] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:19,936] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:20,016]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:20,020] Step 3: Click to product by text
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:21,472] Step 3: Click to 'Add Your Review' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:22,302] Step 3: Enter to 'Review title' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:22,535] Step 3: Enter to 'Review title' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:22,749] Step 3: Click to 'Review' radio
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:22,862] Step 6: Click to 'Submit' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:23,776] Step 3: Click to 'My Account' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:24,379] Step 3: Click to 'My product reviews' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:25,274] Step 7: Verify review display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:25,416]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:25,421] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:25,421] Driver instance name = remotewebdriver: chrome on windows (e924f154c550fc19421470759ae66672)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:28,634] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:28,634] Step 1: Hover to header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:28,906] Step 1: Open 'Note Book' submenu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:29,810] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:30,601]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:30,601] Step 2: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:31,075]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:31,156] Step 1: Click to Sort Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:31,919]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:31,919] Step 2: Click to Sort Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:32,362]  -------------------------- FAILED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png" height='100' width='150'/> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:32,615] Step 1: Click to Sort Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:33,371]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:33,371] Step 2: Click to Sort Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:33,832]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:33,834] Step 1: Click to Sort High to Low
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:35,643]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:35,644] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:37,572]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:37,578] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,585]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,585] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,819]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,819] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,910]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:38,910] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:39,604]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:39,604] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:39,679]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:39,682] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:40,376]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:40,376] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:41,104]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:41,104] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:41,448]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:41,448] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:46,523]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:46,529] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:47,297]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:47,297] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:47,640]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:47,640] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:52,716]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:52,720] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:52,721] Driver instance name = remotewebdriver: chrome on windows (0f2f3d07195cb1c6e5519ac50e837b6b)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,260] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,261] Step 1: Click to 'Register' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,737] Step 2: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,844] Step 3: Verify error 'First Name' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,903]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,904] Step 4: Verify error 'Last Name' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,979]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:55,979] Step 5: Verify error 'Email' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,004]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,005] Step 6: Verify error 'Password' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,035]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,036] Step 7: Verify error 'Confirm Password' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,066]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,068] Step 8: Refesh 'Register' 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,411] Step 9: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,555] Step 10: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,697] Step 11: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,834] Step 12: Enter to 'Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:56,964] Step 13: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,097] Step 14: Click to 'Register' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,184] Step 15: Verify error 'Email' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,219]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,221] Step 16: Refesh 'Register' 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,231] Step 17: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,660] Step 18: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,788] Step 19: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:57,931] Step 20: Enter to 'Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:58,066] Step 21: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:58,243] Step 22: Click to 'Register' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:59,028] Step 23: Verify Success Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:59,067]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:59,067] Step 24: Click to 'Log out' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:02:59,734] Step 25: Refesh 'Register' 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:00,494] Step 26: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:00,631] Step 27: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:00,757] Step 28: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:00,903] Step 29: Enter to 'Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,084] Step 30: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,220] Step 31: Click to 'Register' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,316] Step 32: Verify error 'Password' message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,354]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,356] Step 33: Click to 'Register' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,366] Step 34: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,841] Step 35: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:01,967] Step 36: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,111] Step 37: Enter to 'Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,245] Step 38: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,385] Step 39: Click to 'Register' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,831] Step 40: Verify Success Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,862]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,863] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:02,863] Driver instance name = remotewebdriver: chrome on windows (b09358956adb5cad0762402f7cda5178)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,293] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,293] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,775] Step 2: Click to 'Login' button with empty data
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,883] Step 2: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,909]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,911] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:05,921] Step 4: Enter ivalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,377] Step 5: Enter password to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,508] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,597] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,626]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,628] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:06,638] Step 4: Enter ivalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,073] Step 5: Enter password to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,206] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,585] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,621]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,623] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:07,632] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,081] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,484] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,508]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,510] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,520] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:08,996] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:09,157] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:09,560] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:09,590]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:09,592] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:09,603] Step 4: Enter invalid email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,031] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,174] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,900] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,931]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,936] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:10,937] Driver instance name = remotewebdriver: chrome on windows (435268c1201a48026288ead3edd4668b)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:13,476] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:13,476] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:13,949] Step 4: Enter  email to email textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:14,131] Step 5: Enter password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:14,264] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:14,925] Step 3: Click to 'My Account' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:15,402] Step 3: Click to 'Customer Info' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:15,824] Step 3: Click to 'Gender' radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:15,930] Step 3: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,060] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,195] Step 3: Sellect 'Day' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,328] Step 3: Sellect 'Month' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,468] Step 3: Sellect 'Year' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,577] Step 3: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,719] Step 3: Enter to 'Company Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:16,858] Step 3: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,285] Step 3: Verify 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,344]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,344] Step 3: Verify 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,423]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,423] Step 3: Verify 'Day' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,525]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,526] Step 3: Verify 'Month' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,651]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:17,651] Step 3: Verify 'Year' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,196]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,196] Step 3: Verify 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,251]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,251] Step 3: Verify 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,312]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,314] Step 3: Click to 'Address' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:18,766] Step 3: Click to 'Add New' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,271] Step 3: Enter to 'First Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,412] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,552] Step 3: Enter to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,727] Step 3: Enter to 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,866] Step 3: Select 'Country' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:19,989] Step 3: Select 'State' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:20,284] Step 3: Enter to 'City' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:20,434] Step 3: Enter to 'Address 1' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:20,575] Step 3: Enter to 'Address 2' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:20,716] Step 3: Enter to 'Zip / postal code' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:20,872] Step 3: Enter to 'Phone number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:21,016] Step 3: Enter to 'Fax number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:21,155] Step 3: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:21,991] Step 3: Verify name
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,022]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,022] Step 3: Verify 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,052]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,052] Step 3: Verify 'Company' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,083]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,083] Step 3: Verify 'Country' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,115]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,115] Step 3: Verify 'Address 1' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,146]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,146] Step 3: Verify 'Address 2' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,179]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,179] Step 3: Verify 'Zip / postal code' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,211]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,211] Step 3: Verify 'Phone number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,243]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,243] Step 3: Verify 'Fax number' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,275]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,277] Step 3: Click to 'Change password' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,742] Step 3: Enter to 'Old Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:22,879] Step 3: Enter to 'New Passowrd' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:23,008] Step 3: Enter to 'Confirm Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:23,130] Step 3: Click to 'Change password' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:23,531] Step 3: Close 'Password was changed'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:23,608] Step 3: Click to 'Log out' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:24,228] Step 1: Click to 'Login' link on header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:24,636] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:24,770] Step 5: Enter old password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:24,893] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,280] Step 7: Verify error message 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,309]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,309] Step 3: Refesh login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,321] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,736] Step 5: Enter new password to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:25,871] Step 6: Click to 'Login' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:26,543] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:26,581]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:26,583] Step 3: Click to product by text
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:27,772] Step 3: Click to 'Add Your Review' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:28,272] Step 3: Enter to 'Review title' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:28,414] Step 3: Enter to 'Review title' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:28,556] Step 3: Click to 'Review' radio
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:28,599] Step 6: Click to 'Submit' button 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,022] Step 3: Click to 'My Account' header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,425] Step 3: Click to 'My product reviews' sub menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,881] Step 7: Verify review display  
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,941]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,942] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:29,942] Driver instance name = remotewebdriver: chrome on windows (3d81c7117ec8910f205f2ed60c20fd16)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:31,714] Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:31,714] Step 1: Hover to header menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:31,885] Step 1: Open 'Note Book' submenu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:32,429] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,090]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,091] Step 2: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,273]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,275] Step 1: Click to Sort Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,929]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:33,929] Step 2: Click to Sort Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:34,098]  -------------------------- FAILED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png" height='100' width='150'/> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:34,257] Step 1: Click to Sort Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:34,899]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:34,899] Step 2: Click to Sort Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,080]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,083] Step 1: Click to Sort High to Low
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,725]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,725] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,907]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:35,908] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,546]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,546] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,627]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,627] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,661]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:36,661] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,281]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,281] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,316]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,318] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,924]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:37,924] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:39,110]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:39,110] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:39,240]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:39,240] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:44,341]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:44,347] Step 1: Click to Sort A to Z
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:45,014]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:45,014] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:45,133]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:45,133] Step 2: Click to Sort High to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:50,190]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:50,194] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-06-09 13:03:50,194] Driver instance name = remotewebdriver: chrome on windows (59f2835f59443a585b519d803782079a)
+<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-05T03:56:17Z" name="NopCommerce User" finished-at="2022-06-05T03:56:33Z" duration-ms="15800">
+  <suite started-at="2022-06-09T20:01:23Z" name="NopCommerce User" finished-at="2022-06-09T20:03:50Z" duration-ms="147058">
     <groups>
     </groups>
-    <test started-at="2022-06-05T03:56:17Z" name="Run on Firefox" finished-at="2022-06-05T03:56:33Z" duration-ms="15800">
-      <class name="com.nopcommerce.user.Register_User_Nopcommerce">
-        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:17Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2022-06-05T03:56:17Z" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:17Z" name="beforeClass" finished-at="2022-06-05T03:56:21Z" duration-ms="4020" status="PASS">
+    <test started-at="2022-06-09T20:01:23Z" name="Run on Chrome laptop" finished-at="2022-06-09T20:02:52Z" duration-ms="89626">
+      <class name="com.nopcommerce.user.Account_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:01:50Z" name="beforeClass" finished-at="2022-06-09T20:01:58Z" duration-ms="7992" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -198,224 +1841,754 @@
                 <![CDATA[https://demo.nopcommerce.com/]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:21,776] Open Home Page
+              <![CDATA[[INFO ] [2022-06-09 13:01:56,537] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:56,538] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:57,453] Step 4: Enter  email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:57,689] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:57,906] Step 6: Click to 'Login' button 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Register_Empty_Data()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:21Z" name="TC_01_Register_Empty_Data" finished-at="2022-06-05T03:56:22Z" duration-ms="981" status="PASS">
+        <test-method signature="TC_01_Account_Customer_Information()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:01:58Z" name="TC_01_Account_Customer_Information" finished-at="2022-06-09T20:02:05Z" duration-ms="6454" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:21,854] Step 1: Click to 'Register' link on header menu
+              <![CDATA[[INFO ] [2022-06-09 13:01:58,828] Step 3: Click to 'My Account' header menu
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,327] Step 2: Click to 'Register' button
+              <![CDATA[[INFO ] [2022-06-09 13:01:59,670] Step 3: Click to 'Customer Info' sub menu
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,612] Step 3: Verify error 'First Name' message
+              <![CDATA[[INFO ] [2022-06-09 13:02:00,295] Step 3: Click to 'Gender' radio button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,651]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:02:00,493] Step 3: Enter to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,653] Step 4: Verify error 'Last Name' message
+              <![CDATA[[INFO ] [2022-06-09 13:02:00,727] Step 3: Enter to 'Last Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,681]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:02:00,933] Step 3: Sellect 'Day' dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,681] Step 5: Verify error 'Email' message
+              <![CDATA[[INFO ] [2022-06-09 13:02:01,152] Step 3: Sellect 'Month' dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,713]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:02:01,387] Step 3: Sellect 'Year' dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,713] Step 6: Verify error 'Password' message
+              <![CDATA[[INFO ] [2022-06-09 13:02:01,619] Step 3: Enter to 'Email' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,745]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:02:01,851] Step 3: Enter to 'Company Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,745] Step 7: Verify error 'Confirm Password' message
+              <![CDATA[[INFO ] [2022-06-09 13:02:02,143] Step 3: Click to 'Save' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,777]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,126] Step 3: Verify 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,248]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,248] Step 3: Verify 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,373]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,373] Step 3: Verify 'Day' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,582]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,582] Step 3: Verify 'Month' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,781]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:03,781] Step 3: Verify 'Year' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,017]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,017] Step 3: Verify 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,131]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,131] Step 3: Verify 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,277]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Account_Customer_Information -->
+        <test-method signature="TC_02_Account_Address()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:02:05Z" name="TC_02_Account_Address" finished-at="2022-06-09T20:02:13Z" duration-ms="8120" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:05,285] Step 3: Click to 'Address' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:07,396] Step 3: Click to 'Add New' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:08,463] Step 3: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:08,971] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:09,350] Step 3: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:09,585] Step 3: Enter to 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:09,803] Step 3: Select 'Country' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:10,027] Step 3: Select 'State' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:10,336] Step 3: Enter to 'City' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:10,559] Step 3: Enter to 'Address 1' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:10,780] Step 3: Enter to 'Address 2' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:11,012] Step 3: Enter to 'Zip / postal code' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:11,238] Step 3: Enter to 'Phone number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:11,455] Step 3: Enter to 'Fax number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:11,673] Step 3: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,667] Step 3: Verify name
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,751]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,752] Step 3: Verify 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,828]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,828] Step 3: Verify 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,908]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:12,908] Step 3: Verify 'Country' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,000]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,000] Step 3: Verify 'Address 1' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,078]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,078] Step 3: Verify 'Address 2' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,156]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,156] Step 3: Verify 'Zip / postal code' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,241]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,241] Step 3: Verify 'Phone number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,323]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,323] Step 3: Verify 'Fax number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,401]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Account_Address -->
+        <test-method signature="TC_03_Account_Change_Password()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:02:13Z" name="TC_03_Account_Change_Password" finished-at="2022-06-09T20:02:20Z" duration-ms="6613" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:13,407] Step 3: Click to 'Change password' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:14,208] Step 3: Enter to 'Old Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:14,423] Step 3: Enter to 'New Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:14,632] Step 3: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:14,855] Step 3: Click to 'Change password' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:15,481] Step 3: Close 'Password was changed'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:15,640] Step 3: Click to 'Log out' header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:16,414] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:17,030] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:17,260] Step 5: Enter old password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:17,481] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:18,080] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:18,161]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:18,161] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:18,185] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:18,801] Step 5: Enter new password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:19,011] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:19,936] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:20,016]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Account_Change_Password -->
+        <test-method signature="TC_04_Account_My_Product_Review()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:02:20Z" name="TC_04_Account_My_Product_Review" finished-at="2022-06-09T20:02:25Z" duration-ms="5398" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:20,020] Step 3: Click to product by text
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:21,472] Step 3: Click to 'Add Your Review' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:22,302] Step 3: Enter to 'Review title' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:22,535] Step 3: Enter to 'Review title' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:22,749] Step 3: Click to 'Review' radio
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:22,862] Step 6: Click to 'Submit' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:23,776] Step 3: Click to 'My Account' header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:24,379] Step 3: Click to 'My product reviews' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:25,274] Step 7: Verify review display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:25,416]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Account_My_Product_Review -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@6940f685]" started-at="2022-06-09T20:02:25Z" name="afterclass" finished-at="2022-06-09T20:02:25Z" duration-ms="194" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:25,421] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:25,421] Driver instance name = remotewebdriver: chrome on windows (e924f154c550fc19421470759ae66672)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Account_User_Nopcommerce -->
+      <class name="com.nopcommerce.user.Register_User_Nopcommerce">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:23Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2022-06-09T20:01:23Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:23Z" name="beforeClass" finished-at="2022-06-09T20:01:26Z" duration-ms="3355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:26,605] Open Home Page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register_Empty_Data()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:26Z" name="TC_01_Register_Empty_Data" finished-at="2022-06-09T20:01:28Z" duration-ms="1461" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:26,665] Step 1: Click to 'Register' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,501] Step 2: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,691] Step 3: Verify error 'First Name' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,770]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,772] Step 4: Verify error 'Last Name' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,848]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,848] Step 5: Verify error 'Email' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,926]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:27,927] Step 6: Verify error 'Password' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,005]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,005] Step 7: Verify error 'Confirm Password' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,079]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_01_Register_Empty_Data -->
-        <test-method signature="TC_02_Register_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:22Z" name="TC_02_Register_Invalid_Email" finished-at="2022-06-05T03:56:24Z" duration-ms="1283" status="PASS">
+        <test-method signature="TC_02_Register_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:28Z" name="TC_02_Register_Invalid_Email" finished-at="2022-06-09T20:01:30Z" duration-ms="1902" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:22,860] Step 8: Refesh 'Register' 
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,162] Step 8: Refesh 'Register' 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,372] Step 9: Enter to 'First Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,642] Step 9: Enter to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,461] Step 10: Enter to 'Last Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:28,878] Step 10: Enter to 'Last Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,553] Step 11: Enter to 'Email' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:29,115] Step 11: Enter to 'Email' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,645] Step 12: Enter to 'Passowrd' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:29,326] Step 12: Enter to 'Passowrd' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,740] Step 13: Enter to 'Confirm Password' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:29,573] Step 13: Enter to 'Confirm Password' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:23,833] Step 14: Click to 'Register' button 
+              <![CDATA[[INFO ] [2022-06-09 13:01:29,798] Step 14: Click to 'Register' button 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:24,108] Step 15: Verify error 'Email' message
+              <![CDATA[[INFO ] [2022-06-09 13:01:29,964] Step 15: Verify error 'Email' message
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:24,141]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:01:30,062]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_02_Register_Invalid_Email -->
-        <test-method signature="TC_03_Register_Valid_Information()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:24Z" name="TC_03_Register_Valid_Information" finished-at="2022-06-05T03:56:27Z" duration-ms="2966" status="PASS">
+        <test-method signature="TC_03_Register_Valid_Information()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:30Z" name="TC_03_Register_Valid_Information" finished-at="2022-06-09T20:01:33Z" duration-ms="3642" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:24,151] Step 16: Refesh 'Register' 
+              <![CDATA[[INFO ] [2022-06-09 13:01:30,079] Step 16: Refesh 'Register' 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,213] Step 9: Enter to 'First Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:30,096] Step 17: Enter to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,302] Step 10: Enter to 'Last Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:30,744] Step 18: Enter to 'Last Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,399] Step 11: Enter to 'Email' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:30,957] Step 19: Enter to 'Email' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,496] Step 12: Enter to 'Passowrd' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:31,225] Step 20: Enter to 'Passowrd' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,583] Step 13: Enter to 'Confirm Password' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:31,436] Step 21: Enter to 'Confirm Password' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:25,676] Step 14: Click to 'Register' button 
+              <![CDATA[[INFO ] [2022-06-09 13:01:31,653] Step 22: Click to 'Register' button 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:26,415] Step 15: Verify Success Message
+              <![CDATA[[INFO ] [2022-06-09 13:01:32,713] Step 23: Verify Success Message
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:26,455]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:01:32,800]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:26,455] Step 16: Click to 'Log out' button
+              <![CDATA[[INFO ] [2022-06-09 13:01:32,800] Step 24: Click to 'Log out' button
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_03_Register_Valid_Information -->
-        <test-method signature="TC_04_Register_Exist_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:27Z" name="TC_04_Register_Exist_Email" finished-at="2022-06-05T03:56:28Z" duration-ms="1193" status="PASS">
+        <test-method signature="TC_04_Register_Short_Password()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:33Z" name="TC_04_Register_Short_Password" finished-at="2022-06-09T20:01:36Z" duration-ms="2479" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,120] Step 17: Click to 'Register' link on header menu
+              <![CDATA[[INFO ] [2022-06-09 13:01:33,727] Step 25: Refesh 'Register' 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,136] Step 9: Enter to 'First Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:34,813] Step 26: Enter to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,515] Step 10: Enter to 'Last Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:35,051] Step 27: Enter to 'Last Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,608] Step 11: Enter to 'Email' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:35,291] Step 28: Enter to 'Email' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,708] Step 12: Enter to 'Passowrd' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:35,521] Step 29: Enter to 'Passowrd' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,796] Step 13: Enter to 'Confirm Password' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:01:35,734] Step 30: Enter to 'Confirm Password' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:27,888] Step 14: Click to 'Register' button 
+              <![CDATA[[INFO ] [2022-06-09 13:01:35,954] Step 31: Click to 'Register' button 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:28,273] Step 15: Verify Success Message
+              <![CDATA[[INFO ] [2022-06-09 13:01:36,124] Step 32: Verify error 'Password' message
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:28,310]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2022-06-09 13:01:36,204]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_04_Register_Exist_Email -->
-        <test-method signature="TC_05_Register_Short_Password()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@76f856a8]" started-at="2022-06-05T03:56:28Z" name="TC_05_Register_Short_Password" finished-at="2022-06-05T03:56:33Z" duration-ms="5104" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        </test-method> <!-- TC_04_Register_Short_Password -->
+        <test-method signature="TC_05_Register_Exist_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:36Z" name="TC_05_Register_Exist_Email" finished-at="2022-06-09T20:01:38Z" duration-ms="2275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:36,214] Step 33: Click to 'Register' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:36,239] Step 34: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:36,891] Step 35: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:37,116] Step 36: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:37,338] Step 37: Enter to 'Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:37,566] Step 38: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:37,778] Step 39: Click to 'Register' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:38,406] Step 40: Verify Success Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:38,488]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Register_Exist_Email -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@45f421c]" started-at="2022-06-09T20:01:38Z" name="afterclass" finished-at="2022-06-09T20:01:38Z" duration-ms="170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:38,491] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:38,491] Driver instance name = remotewebdriver: chrome on windows (e8130cea6105b8b47389773ac94041c6)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Register_User_Nopcommerce -->
+      <class name="com.nopcommerce.user.Product_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:25Z" name="beforeClass" finished-at="2022-06-09T20:02:29Z" duration-ms="4191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:28,634] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:28,634] Step 1: Hover to header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:28,906] Step 1: Open 'Note Book' submenu
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Sort_Name_A_To_Z()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:29Z" name="TC_01_Sort_Name_A_To_Z" finished-at="2022-06-09T20:02:31Z" duration-ms="1269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:29,810] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:30,601]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:30,601] Step 2: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:31,075]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Sort_Name_A_To_Z -->
+        <test-method signature="TC_02_Sort_Name_Z_To_A()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:31Z" name="TC_02_Sort_Name_Z_To_A" finished-at="2022-06-09T20:02:32Z" duration-ms="1207" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1T195I4', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name='FirstName']}]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1T195I4', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name='FirstName']}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-at commons.BasePage.waitForElementVisisble(BasePage.java:405)
-at commons.BasePage.sendKeyToTextBoxByName(BasePage.java:469)
-at com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password(Register_User_Nopcommerce.java:155)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at commons.BaseTest.checkTrue(BaseTest.java:123)
+at commons.BaseTest.verifyTrue(BaseTest.java:135)
+at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -443,22 +2616,1564 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:28,312] Step 16: Refesh 'Register' 
+              <![CDATA[[INFO ] [2022-06-09 13:02:31,156] Step 1: Click to Sort Z to A
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2022-06-04 20:56:33,370] Step 3: Enter to 'First Name' textbox
+              <![CDATA[[INFO ] [2022-06-09 13:02:31,919]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
             <line>
-              <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png" height='100' width='150'/> </a></br>]]>
+              <![CDATA[[INFO ] [2022-06-09 13:02:31,919] Step 2: Click to Sort Z to A
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:32,362]  -------------------------- FAILED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png" height='100' width='150'/> </a></br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_05_Register_Short_Password -->
+        </test-method> <!-- TC_02_Sort_Name_Z_To_A -->
+        <test-method signature="TC_03_Sort_Price_Low_To_High()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:32Z" name="TC_03_Sort_Price_Low_To_High" finished-at="2022-06-09T20:02:33Z" duration-ms="1219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:32,615] Step 1: Click to Sort Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:33,371]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:33,371] Step 2: Click to Sort Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:33,832]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Sort_Price_Low_To_High -->
+        <test-method signature="TC_04_Sort_Price_High_To_Low()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:33Z" name="TC_04_Sort_Price_High_To_Low" finished-at="2022-06-09T20:02:37Z" duration-ms="3739" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:33,834] Step 1: Click to Sort High to Low
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:35,643]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:35,644] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:37,572]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Sort_Price_High_To_Low -->
+        <test-method signature="TC_05_Product_Display_03_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:37Z" name="TC_05_Product_Display_03_Product" finished-at="2022-06-09T20:02:39Z" duration-ms="2103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:37,578] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,585]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,585] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,819]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,819] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,910]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:38,910] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:39,604]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:39,604] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:39,679]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Product_Display_03_Product -->
+        <test-method signature="TC_06_Product_Display_06_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:39Z" name="TC_06_Product_Display_06_Product" finished-at="2022-06-09T20:02:46Z" duration-ms="6842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:39,682] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:40,376]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:40,376] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:41,104]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:41,104] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:41,448]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:41,448] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:46,523]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Product_Display_06_Product -->
+        <test-method signature="TC_07_Product_Display_09_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:46Z" name="TC_07_Product_Display_09_Product" finished-at="2022-06-09T20:02:52Z" duration-ms="6189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:46,529] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:47,297]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:47,297] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:47,640]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:47,640] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:52,716]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_07_Product_Display_09_Product -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@47b179d7]" started-at="2022-06-09T20:02:52Z" name="afterclass" finished-at="2022-06-09T20:02:52Z" duration-ms="134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:52,720] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:52,721] Driver instance name = remotewebdriver: chrome on windows (0f2f3d07195cb1c6e5519ac50e837b6b)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Product_User_Nopcommerce -->
+      <class name="com.nopcommerce.user.Login_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:38Z" name="beforeClass" finished-at="2022-06-09T20:01:42Z" duration-ms="3632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:41,464] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:41,464] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Login_Empty_Data()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:42Z" name="TC_01_Login_Empty_Data" finished-at="2022-06-09T20:01:42Z" duration-ms="262" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:42,299] Step 2: Click to 'Login' button with empty data
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:42,476] Step 2: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:42,555]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Login_Empty_Data -->
+        <test-method signature="TC_02_Login_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:42Z" name="TC_02_Login_Invalid_Email" finished-at="2022-06-09T20:01:43Z" duration-ms="1140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:42,560] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:42,578] Step 4: Enter ivalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,211] Step 5: Enter password to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,465] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,626] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,698]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login_Invalid_Email -->
+        <test-method signature="TC_03_Login_Unregistered_Email()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:43Z" name="TC_03_Login_Unregistered_Email" finished-at="2022-06-09T20:01:45Z" duration-ms="1529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,703] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:43,717] Step 4: Enter ivalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:44,314] Step 5: Enter password to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:44,549] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:45,152] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:45,228]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Login_Unregistered_Email -->
+        <test-method signature="TC_04_Login_Empty_Password()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:45Z" name="TC_04_Login_Empty_Password" finished-at="2022-06-09T20:01:46Z" duration-ms="1324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:45,234] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:45,262] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:45,883] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:46,483] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:46,557]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Login_Empty_Password -->
+        <test-method signature="TC_05_Login_Wrong_Password()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:46Z" name="TC_05_Login_Wrong_Password" finished-at="2022-06-09T20:01:48Z" duration-ms="1529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:46,561] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:46,575] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:47,198] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:47,418] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,009] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,088]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Login_Wrong_Password -->
+        <test-method signature="TC_06_Login_Success()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:48Z" name="TC_06_Login_Success" finished-at="2022-06-09T20:01:49Z" duration-ms="1876" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,091] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,105] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,724] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:48,932] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:49,871] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:49,942]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Login_Success -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@1816e24a]" started-at="2022-06-09T20:01:49Z" name="afterclass" finished-at="2022-06-09T20:01:50Z" duration-ms="862" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:49,967] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:01:49,967] Driver instance name = remotewebdriver: chrome on windows (466f26c10abaced86b00334b21dd7c7d)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Login_User_Nopcommerce -->
+    </test> <!-- Run on Chrome laptop -->
+    <test started-at="2022-06-09T20:02:52Z" name="Run on Chrome desktop" finished-at="2022-06-09T20:03:50Z" duration-ms="57405">
+      <class name="com.nopcommerce.user.Account_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:11Z" name="beforeClass" finished-at="2022-06-09T20:03:14Z" duration-ms="3897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:13,476] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:13,476] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:13,949] Step 4: Enter  email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:14,131] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:14,264] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Account_Customer_Information()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:14Z" name="TC_01_Account_Customer_Information" finished-at="2022-06-09T20:03:18Z" duration-ms="3389" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:14,925] Step 3: Click to 'My Account' header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:15,402] Step 3: Click to 'Customer Info' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:15,824] Step 3: Click to 'Gender' radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:15,930] Step 3: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,060] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,195] Step 3: Sellect 'Day' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,328] Step 3: Sellect 'Month' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,468] Step 3: Sellect 'Year' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,577] Step 3: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,719] Step 3: Enter to 'Company Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:16,858] Step 3: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,285] Step 3: Verify 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,344]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,344] Step 3: Verify 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,423]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,423] Step 3: Verify 'Day' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,525]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,526] Step 3: Verify 'Month' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,651]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:17,651] Step 3: Verify 'Year' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,196]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,196] Step 3: Verify 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,251]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,251] Step 3: Verify 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,312]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Account_Customer_Information -->
+        <test-method signature="TC_02_Account_Address()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:18Z" name="TC_02_Account_Address" finished-at="2022-06-09T20:03:22Z" duration-ms="3962" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,314] Step 3: Click to 'Address' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:18,766] Step 3: Click to 'Add New' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,271] Step 3: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,412] Step 3: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,552] Step 3: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,727] Step 3: Enter to 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,866] Step 3: Select 'Country' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:19,989] Step 3: Select 'State' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:20,284] Step 3: Enter to 'City' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:20,434] Step 3: Enter to 'Address 1' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:20,575] Step 3: Enter to 'Address 2' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:20,716] Step 3: Enter to 'Zip / postal code' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:20,872] Step 3: Enter to 'Phone number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:21,016] Step 3: Enter to 'Fax number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:21,155] Step 3: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:21,991] Step 3: Verify name
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,022]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,022] Step 3: Verify 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,052]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,052] Step 3: Verify 'Company' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,083]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,083] Step 3: Verify 'Country' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,115]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,115] Step 3: Verify 'Address 1' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,146]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,146] Step 3: Verify 'Address 2' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,179]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,179] Step 3: Verify 'Zip / postal code' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,211]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,211] Step 3: Verify 'Phone number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,243]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,243] Step 3: Verify 'Fax number' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,275]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Account_Address -->
+        <test-method signature="TC_03_Account_Change_Password()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:22Z" name="TC_03_Account_Change_Password" finished-at="2022-06-09T20:03:26Z" duration-ms="4305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,277] Step 3: Click to 'Change password' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,742] Step 3: Enter to 'Old Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:22,879] Step 3: Enter to 'New Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:23,008] Step 3: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:23,130] Step 3: Click to 'Change password' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:23,531] Step 3: Close 'Password was changed'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:23,608] Step 3: Click to 'Log out' header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:24,228] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:24,636] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:24,770] Step 5: Enter old password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:24,893] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,280] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,309]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,309] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,321] Step 4: Enter  email to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,736] Step 5: Enter new password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:25,871] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:26,543] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:26,581]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Account_Change_Password -->
+        <test-method signature="TC_04_Account_My_Product_Review()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:26Z" name="TC_04_Account_My_Product_Review" finished-at="2022-06-09T20:03:29Z" duration-ms="3359" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:26,583] Step 3: Click to product by text
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:27,772] Step 3: Click to 'Add Your Review' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:28,272] Step 3: Enter to 'Review title' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:28,414] Step 3: Enter to 'Review title' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:28,556] Step 3: Click to 'Review' radio
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:28,599] Step 6: Click to 'Submit' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,022] Step 3: Click to 'My Account' header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,425] Step 3: Click to 'My product reviews' sub menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,881] Step 7: Verify review display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,941]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Account_My_Product_Review -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Account_User_Nopcommerce@38320e34]" started-at="2022-06-09T20:03:29Z" name="afterclass" finished-at="2022-06-09T20:03:30Z" duration-ms="113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,942] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:29,942] Driver instance name = remotewebdriver: chrome on windows (3d81c7117ec8910f205f2ed60c20fd16)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Account_User_Nopcommerce -->
+      <class name="com.nopcommerce.user.Register_User_Nopcommerce">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:52Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2022-06-09T20:02:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:52Z" name="beforeClass" finished-at="2022-06-09T20:02:55Z" duration-ms="2379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,260] Open Home Page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register_Empty_Data()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:55Z" name="TC_01_Register_Empty_Data" finished-at="2022-06-09T20:02:56Z" duration-ms="806" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,261] Step 1: Click to 'Register' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,737] Step 2: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,844] Step 3: Verify error 'First Name' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,903]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,904] Step 4: Verify error 'Last Name' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,979]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:55,979] Step 5: Verify error 'Email' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,004]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,005] Step 6: Verify error 'Password' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,035]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,036] Step 7: Verify error 'Confirm Password' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,066]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register_Empty_Data -->
+        <test-method signature="TC_02_Register_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:56Z" name="TC_02_Register_Invalid_Email" finished-at="2022-06-09T20:02:57Z" duration-ms="1152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,068] Step 8: Refesh 'Register' 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,411] Step 9: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,555] Step 10: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,697] Step 11: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,834] Step 12: Enter to 'Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:56,964] Step 13: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,097] Step 14: Click to 'Register' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,184] Step 15: Verify error 'Email' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,219]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Register_Invalid_Email -->
+        <test-method signature="TC_03_Register_Valid_Information()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:57Z" name="TC_03_Register_Valid_Information" finished-at="2022-06-09T20:02:59Z" duration-ms="2511" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,221] Step 16: Refesh 'Register' 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,231] Step 17: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,660] Step 18: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,788] Step 19: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:57,931] Step 20: Enter to 'Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:58,066] Step 21: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:58,243] Step 22: Click to 'Register' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:59,028] Step 23: Verify Success Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:59,067]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:59,067] Step 24: Click to 'Log out' button
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Register_Valid_Information -->
+        <test-method signature="TC_04_Register_Short_Password()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:02:59Z" name="TC_04_Register_Short_Password" finished-at="2022-06-09T20:03:01Z" duration-ms="1622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:02:59,734] Step 25: Refesh 'Register' 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:00,494] Step 26: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:00,631] Step 27: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:00,757] Step 28: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:00,903] Step 29: Enter to 'Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,084] Step 30: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,220] Step 31: Click to 'Register' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,316] Step 32: Verify error 'Password' message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,354]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Register_Short_Password -->
+        <test-method signature="TC_05_Register_Exist_Email()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:03:01Z" name="TC_05_Register_Exist_Email" finished-at="2022-06-09T20:03:02Z" duration-ms="1507" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,356] Step 33: Click to 'Register' link on header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,366] Step 34: Enter to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,841] Step 35: Enter to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:01,967] Step 36: Enter to 'Email' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,111] Step 37: Enter to 'Passowrd' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,245] Step 38: Enter to 'Confirm Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,385] Step 39: Click to 'Register' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,831] Step 40: Verify Success Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,862]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Register_Exist_Email -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Register_User_Nopcommerce@4c48fe92]" started-at="2022-06-09T20:03:02Z" name="afterclass" finished-at="2022-06-09T20:03:02Z" duration-ms="106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,863] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:02,863] Driver instance name = remotewebdriver: chrome on windows (b09358956adb5cad0762402f7cda5178)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
       </class> <!-- com.nopcommerce.user.Register_User_Nopcommerce -->
-    </test> <!-- Run on Firefox -->
+      <class name="com.nopcommerce.user.Product_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:30Z" name="beforeClass" finished-at="2022-06-09T20:03:32Z" duration-ms="2373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:31,714] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:31,714] Step 1: Hover to header menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:31,885] Step 1: Open 'Note Book' submenu
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Sort_Name_A_To_Z()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:32Z" name="TC_01_Sort_Name_A_To_Z" finished-at="2022-06-09T20:03:33Z" duration-ms="845" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:32,429] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,090]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,091] Step 2: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,273]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Sort_Name_A_To_Z -->
+        <test-method signature="TC_02_Sort_Name_Z_To_A()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:33Z" name="TC_02_Sort_Name_Z_To_A" finished-at="2022-06-09T20:03:34Z" duration-ms="824" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at commons.BaseTest.checkTrue(BaseTest.java:123)
+at commons.BaseTest.verifyTrue(BaseTest.java:135)
+at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,275] Step 1: Click to Sort Z to A
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,929]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:33,929] Step 2: Click to Sort Z to A
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:34,098]  -------------------------- FAILED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png" height='100' width='150'/> </a></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Sort_Name_Z_To_A -->
+        <test-method signature="TC_03_Sort_Price_Low_To_High()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:34Z" name="TC_03_Sort_Price_Low_To_High" finished-at="2022-06-09T20:03:35Z" duration-ms="824" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:34,257] Step 1: Click to Sort Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:34,899]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:34,899] Step 2: Click to Sort Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,080]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Sort_Price_Low_To_High -->
+        <test-method signature="TC_04_Sort_Price_High_To_Low()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:35Z" name="TC_04_Sort_Price_High_To_Low" finished-at="2022-06-09T20:03:35Z" duration-ms="825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,083] Step 1: Click to Sort High to Low
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,725]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,725] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,907]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Sort_Price_High_To_Low -->
+        <test-method signature="TC_05_Product_Display_03_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:35Z" name="TC_05_Product_Display_03_Product" finished-at="2022-06-09T20:03:37Z" duration-ms="1408" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:35,908] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,546]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,546] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,627]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,627] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,661]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:36,661] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,281]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,281] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,316]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Product_Display_03_Product -->
+        <test-method signature="TC_06_Product_Display_06_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:37Z" name="TC_06_Product_Display_06_Product" finished-at="2022-06-09T20:03:44Z" duration-ms="7024" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,318] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,924]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:37,924] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:39,110]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:39,110] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:39,240]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:39,240] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:44,341]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Product_Display_06_Product -->
+        <test-method signature="TC_07_Product_Display_09_Product()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:44Z" name="TC_07_Product_Display_09_Product" finished-at="2022-06-09T20:03:50Z" duration-ms="5848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:44,347] Step 1: Click to Sort A to Z
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:45,014]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:45,014] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:45,133]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:45,133] Step 2: Click to Sort High to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:50,190]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_07_Product_Display_09_Product -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Product_User_Nopcommerce@3d6a6bee]" started-at="2022-06-09T20:03:50Z" name="afterclass" finished-at="2022-06-09T20:03:50Z" duration-ms="91" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:50,194] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:50,194] Driver instance name = remotewebdriver: chrome on windows (59f2835f59443a585b519d803782079a)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Product_User_Nopcommerce -->
+      <class name="com.nopcommerce.user.Login_User_Nopcommerce">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:02Z" name="beforeClass" finished-at="2022-06-09T20:03:05Z" duration-ms="2805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[192.168.1.19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,293] Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,293] Step 1: Click to 'Login' link on header menu
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Login_Empty_Data()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:05Z" name="TC_01_Login_Empty_Data" finished-at="2022-06-09T20:03:05Z" duration-ms="135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,775] Step 2: Click to 'Login' button with empty data
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,883] Step 2: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,909]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Login_Empty_Data -->
+        <test-method signature="TC_02_Login_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:05Z" name="TC_02_Login_Invalid_Email" finished-at="2022-06-09T20:03:06Z" duration-ms="716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,911] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:05,921] Step 4: Enter ivalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,377] Step 5: Enter password to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,508] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,597] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,626]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login_Invalid_Email -->
+        <test-method signature="TC_03_Login_Unregistered_Email()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:06Z" name="TC_03_Login_Unregistered_Email" finished-at="2022-06-09T20:03:07Z" duration-ms="994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,628] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:06,638] Step 4: Enter ivalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,073] Step 5: Enter password to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,206] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,585] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,621]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_Login_Unregistered_Email -->
+        <test-method signature="TC_04_Login_Empty_Password()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:07Z" name="TC_04_Login_Empty_Password" finished-at="2022-06-09T20:03:08Z" duration-ms="886" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,623] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:07,632] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,081] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,484] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,508]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_04_Login_Empty_Password -->
+        <test-method signature="TC_05_Login_Wrong_Password()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:08Z" name="TC_05_Login_Wrong_Password" finished-at="2022-06-09T20:03:09Z" duration-ms="1081" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,510] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,520] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:08,996] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:09,157] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:09,560] Step 7: Verify error message 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:09,590]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_05_Login_Wrong_Password -->
+        <test-method signature="TC_06_Login_Success()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:09Z" name="TC_06_Login_Success" finished-at="2022-06-09T20:03:10Z" duration-ms="1344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:09,592] Step 3: Refesh login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:09,603] Step 4: Enter invalid email to email textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,031] Step 5: Enter password to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,174] Step 6: Click to 'Login' button 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,900] Step 7: Verify 'Log out' header link button display  
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,931]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Login_Success -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.nopcommerce.user.Login_User_Nopcommerce@732c9b5c]" started-at="2022-06-09T20:03:10Z" name="afterclass" finished-at="2022-06-09T20:03:11Z" duration-ms="89" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,936] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-06-09 13:03:10,937] Driver instance name = remotewebdriver: chrome on windows (435268c1201a48026288ead3edd4668b)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.nopcommerce.user.Login_User_Nopcommerce -->
+    </test> <!-- Run on Chrome desktop -->
   </suite> <!-- NopCommerce User -->
 </testng-results>

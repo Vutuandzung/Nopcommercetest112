@@ -29,7 +29,7 @@ public class Upload_File_Admin_Nopcommerce extends BaseTest {
 		alt = "ALT";
 		title = "TITLE";
 		driver.manage().window().maximize();
-		loginPage = PageObjectGenerator.getPOG().getLoginPage(driver);
+		loginPage = PageObjectGenerator.getPOG().getLoginPageAdmin(driver);
 		loginPage.sendKeyToEmailTextbox("admin@yourstore.com");
 		loginPage.sendKeyToPasswordTextbox("admin");
 		myDasboardPage = loginPage.clickToLoginButton();

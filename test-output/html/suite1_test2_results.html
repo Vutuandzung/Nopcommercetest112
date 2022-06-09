@@ -3,16 +3,16 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Run on Firefox</title>
+  <title>Test Results Report - Run on Chrome desktop</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Run on Firefox</h1>
+<h1>Run on Chrome desktop</h1>
 <p>
-  Test duration: 10.494s
+  Test duration: 57.221s
 </p>
 
 
@@ -20,51 +20,41 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.nopcommerce.user.Register_User_Nopcommerce</td>
+        <td colspan="3" class="group">com.nopcommerce.user.Product_User_Nopcommerce</td>
       </tr>
             
 <tr>
   <td class="method">
-                  TC_04_Register_Short_Password
+                  TC_02_Sort_Name_Z_To_A
       </td>
   <td class="duration">
-    0.097s
+    0.824s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2022-06-04 09:08:23,295] Step 16: Refesh 'Register' 
+                        [INFO ] [2022-06-09 13:03:33,275] Step 1: Click to Sort Z to A
 <br>
-                                [INFO ] [2022-06-04 09:08:23,360] Step 3: Enter to 'First Name' textbox
+                                [INFO ] [2022-06-09 13:03:33,929]  -------------------------- PASSED -------------------------- 
 <br>
-                                <br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_04_Register_Short_Password_04_06_2022_09_08_23.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_04_Register_Short_Password_04_06_2022_09_08_23.png" height='100' width='150'/> </a></br>
+                                [INFO ] [2022-06-09 13:03:33,929] Step 2: Click to Sort Z to A
+<br>
+                                [INFO ] [2022-06-09 13:03:34,098]  -------------------------- FAILED -------------------------- 
+<br>
+                                <br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_03_34.png" height='100' width='150'/> </a></br>
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: <br/>
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
-System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;<br/>
-Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 14548, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
-Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
-*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
     <div class="stackTrace" id="exception-0">
-              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)<br />
-              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
-              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
-              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)<br />
-              org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)<br />
-              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
-              commons.BasePage.waitForElementVisisble(BasePage.java:393)<br />
-              commons.BasePage.sendKeyToTextBoxByName(BasePage.java:457)<br />
-              com.nopcommerce.user.Register_User_Nopcommerce.TC_04_Register_Short_Password(Register_User_Nopcommerce.java:120)<br />
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertTrue(Assert.java:44)<br />
+              org.testng.Assert.assertTrue(Assert.java:54)<br />
+              commons.BaseTest.checkTrue(BaseTest.java:123)<br />
+              commons.BaseTest.verifyTrue(BaseTest.java:135)<br />
+              com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -78,13 +68,18 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
               org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
               org.testng.TestRunner.run(TestRunner.java:505)<br />
               org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
-              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
-              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
-              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
-              java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br />
-              java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br />
-              java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br />
-              java.base/java.lang.Thread.run(Thread.java:834)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
                 </div>
       </td>
 </tr>
@@ -94,6 +89,584 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Account_User_Nopcommerce</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Account_Customer_Information
+      </td>
+  <td class="duration">
+    3.389s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:14,925] Step 3: Click to 'My Account' header menu
+<br>
+                                [INFO ] [2022-06-09 13:03:15,402] Step 3: Click to 'Customer Info' sub menu
+<br>
+                                [INFO ] [2022-06-09 13:03:15,824] Step 3: Click to 'Gender' radio button
+<br>
+                                [INFO ] [2022-06-09 13:03:15,930] Step 3: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:16,060] Step 3: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:16,195] Step 3: Sellect 'Day' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:16,328] Step 3: Sellect 'Month' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:16,468] Step 3: Sellect 'Year' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:16,577] Step 3: Enter to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:16,719] Step 3: Enter to 'Company Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:16,858] Step 3: Click to 'Save' button
+<br>
+                                [INFO ] [2022-06-09 13:03:17,285] Step 3: Verify 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:17,344]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:17,344] Step 3: Verify 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:17,423]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:17,423] Step 3: Verify 'Day' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:17,525]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:17,526] Step 3: Verify 'Month' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:17,651]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:17,651] Step 3: Verify 'Year' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:18,196]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:18,196] Step 3: Verify 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:18,251]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:18,251] Step 3: Verify 'Company' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:18,312]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_02_Account_Address
+      </td>
+  <td class="duration">
+    3.962s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:18,314] Step 3: Click to 'Address' sub menu
+<br>
+                                [INFO ] [2022-06-09 13:03:18,766] Step 3: Click to 'Add New' button
+<br>
+                                [INFO ] [2022-06-09 13:03:19,271] Step 3: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:19,412] Step 3: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:19,552] Step 3: Enter to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:19,727] Step 3: Enter to 'Company' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:19,866] Step 3: Select 'Country' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:19,989] Step 3: Select 'State' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:20,284] Step 3: Enter to 'City' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:20,434] Step 3: Enter to 'Address 1' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:20,575] Step 3: Enter to 'Address 2' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:20,716] Step 3: Enter to 'Zip / postal code' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:20,872] Step 3: Enter to 'Phone number' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:21,016] Step 3: Enter to 'Fax number' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:21,155] Step 3: Click to 'Save' button
+<br>
+                                [INFO ] [2022-06-09 13:03:21,991] Step 3: Verify name
+<br>
+                                [INFO ] [2022-06-09 13:03:22,022]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,022] Step 3: Verify 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,052]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,052] Step 3: Verify 'Company' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,083]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,083] Step 3: Verify 'Country' dropdown
+<br>
+                                [INFO ] [2022-06-09 13:03:22,115]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,115] Step 3: Verify 'Address 1' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,146]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,146] Step 3: Verify 'Address 2' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,179]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,179] Step 3: Verify 'Zip / postal code' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,211]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,211] Step 3: Verify 'Phone number' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,243]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:22,243] Step 3: Verify 'Fax number' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,275]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Account_Change_Password
+      </td>
+  <td class="duration">
+    4.305s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:22,277] Step 3: Click to 'Change password' sub menu
+<br>
+                                [INFO ] [2022-06-09 13:03:22,742] Step 3: Enter to 'Old Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:22,879] Step 3: Enter to 'New Passowrd' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:23,008] Step 3: Enter to 'Confirm Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:23,130] Step 3: Click to 'Change password' button
+<br>
+                                [INFO ] [2022-06-09 13:03:23,531] Step 3: Close 'Password was changed'
+<br>
+                                [INFO ] [2022-06-09 13:03:23,608] Step 3: Click to 'Log out' header menu
+<br>
+                                [INFO ] [2022-06-09 13:03:24,228] Step 1: Click to 'Login' link on header menu
+<br>
+                                [INFO ] [2022-06-09 13:03:24,636] Step 4: Enter  email to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:24,770] Step 5: Enter old password to 'Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:24,893] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:25,280] Step 7: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:25,309]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:25,309] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:25,321] Step 4: Enter  email to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:25,736] Step 5: Enter new password to 'Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:25,871] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:26,543] Step 7: Verify 'Log out' header link button display  
+<br>
+                                [INFO ] [2022-06-09 13:03:26,581]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_04_Account_My_Product_Review
+      </td>
+  <td class="duration">
+    3.359s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:26,583] Step 3: Click to product by text
+<br>
+                                [INFO ] [2022-06-09 13:03:27,772] Step 3: Click to 'Add Your Review' link
+<br>
+                                [INFO ] [2022-06-09 13:03:28,272] Step 3: Enter to 'Review title' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:28,414] Step 3: Enter to 'Review title' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:28,556] Step 3: Click to 'Review' radio
+<br>
+                                [INFO ] [2022-06-09 13:03:28,599] Step 6: Click to 'Submit' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:29,022] Step 3: Click to 'My Account' header menu
+<br>
+                                [INFO ] [2022-06-09 13:03:29,425] Step 3: Click to 'My product reviews' sub menu
+<br>
+                                [INFO ] [2022-06-09 13:03:29,881] Step 7: Verify review display  
+<br>
+                                [INFO ] [2022-06-09 13:03:29,941]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Login_User_Nopcommerce</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Login_Empty_Data
+      </td>
+  <td class="duration">
+    0.135s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:05,775] Step 2: Click to 'Login' button with empty data
+<br>
+                                [INFO ] [2022-06-09 13:03:05,883] Step 2: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:05,909]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_02_Login_Invalid_Email
+      </td>
+  <td class="duration">
+    0.716s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:05,911] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:05,921] Step 4: Enter ivalid email to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:06,377] Step 5: Enter password to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:06,508] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:06,597] Step 7: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:06,626]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Login_Unregistered_Email
+      </td>
+  <td class="duration">
+    0.994s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:06,628] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:06,638] Step 4: Enter ivalid email to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:07,073] Step 5: Enter password to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:07,206] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:07,585] Step 7: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:07,621]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_04_Login_Empty_Password
+      </td>
+  <td class="duration">
+    0.886s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:07,623] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:07,632] Step 4: Enter invalid email to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:08,081] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:08,484] Step 7: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:08,508]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Login_Wrong_Password
+      </td>
+  <td class="duration">
+    1.081s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:08,510] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:08,520] Step 4: Enter invalid email to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:08,996] Step 5: Enter password to 'Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:09,157] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:09,560] Step 7: Verify error message 
+<br>
+                                [INFO ] [2022-06-09 13:03:09,590]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_06_Login_Success
+      </td>
+  <td class="duration">
+    1.344s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:09,592] Step 3: Refesh login page
+<br>
+                                [INFO ] [2022-06-09 13:03:09,603] Step 4: Enter invalid email to email textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:10,031] Step 5: Enter password to 'Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:10,174] Step 6: Click to 'Login' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:10,900] Step 7: Verify 'Log out' header link button display  
+<br>
+                                [INFO ] [2022-06-09 13:03:10,931]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.user.Product_User_Nopcommerce</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC_01_Sort_Name_A_To_Z
+      </td>
+  <td class="duration">
+    0.845s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:32,429] Step 1: Click to Sort A to Z
+<br>
+                                [INFO ] [2022-06-09 13:03:33,090]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:33,091] Step 2: Click to Sort A to Z
+<br>
+                                [INFO ] [2022-06-09 13:03:33,273]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_03_Sort_Price_Low_To_High
+      </td>
+  <td class="duration">
+    0.824s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:34,257] Step 1: Click to Sort Low to High
+<br>
+                                [INFO ] [2022-06-09 13:03:34,899]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:34,899] Step 2: Click to Sort Low to High
+<br>
+                                [INFO ] [2022-06-09 13:03:35,080]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_04_Sort_Price_High_To_Low
+      </td>
+  <td class="duration">
+    0.825s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:35,083] Step 1: Click to Sort High to Low
+<br>
+                                [INFO ] [2022-06-09 13:03:35,725]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:35,725] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:35,907]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Product_Display_03_Product
+      </td>
+  <td class="duration">
+    1.408s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:35,908] Step 1: Click to Sort A to Z
+<br>
+                                [INFO ] [2022-06-09 13:03:36,546]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:36,546] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:36,627]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:36,627] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:36,661]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:36,661] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:37,281]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:37,281] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:37,316]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_06_Product_Display_06_Product
+      </td>
+  <td class="duration">
+    7.024s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:37,318] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:37,924]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:37,924] Step 1: Click to Sort A to Z
+<br>
+                                [INFO ] [2022-06-09 13:03:39,110]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:39,110] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:39,240]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:39,240] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:44,341]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_07_Product_Display_09_Product
+      </td>
+  <td class="duration">
+    5.848s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:44,347] Step 1: Click to Sort A to Z
+<br>
+                                [INFO ] [2022-06-09 13:03:45,014]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:45,014] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:45,133]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:03:45,133] Step 2: Click to Sort High to High
+<br>
+                                [INFO ] [2022-06-09 13:03:50,190]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
         <td colspan="3" class="group">com.nopcommerce.user.Register_User_Nopcommerce</td>
       </tr>
             
@@ -102,35 +675,35 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
                   TC_01_Register_Empty_Data
       </td>
   <td class="duration">
-    0.900s
+    0.806s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2022-06-04 09:08:18,484] Step 1: Click to 'Register' link on header menu
+                        [INFO ] [2022-06-09 13:02:55,261] Step 1: Click to 'Register' link on header menu
 <br>
-                                [INFO ] [2022-06-04 09:08:18,928] Step 2: Click to 'Register' button
+                                [INFO ] [2022-06-09 13:02:55,737] Step 2: Click to 'Register' button
 <br>
-                                [INFO ] [2022-06-04 09:08:19,219] Step 3: Verify error 'First Name' message
+                                [INFO ] [2022-06-09 13:02:55,844] Step 3: Verify error 'First Name' message
 <br>
-                                [INFO ] [2022-06-04 09:08:19,257]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:55,903]  -------------------------- PASSED -------------------------- 
 <br>
-                                [INFO ] [2022-06-04 09:08:19,258] Step 4: Verify error 'Last Name' message
+                                [INFO ] [2022-06-09 13:02:55,904] Step 4: Verify error 'Last Name' message
 <br>
-                                [INFO ] [2022-06-04 09:08:19,288]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:55,979]  -------------------------- PASSED -------------------------- 
 <br>
-                                [INFO ] [2022-06-04 09:08:19,288] Step 5: Verify error 'Email' message
+                                [INFO ] [2022-06-09 13:02:55,979] Step 5: Verify error 'Email' message
 <br>
-                                [INFO ] [2022-06-04 09:08:19,318]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:56,004]  -------------------------- PASSED -------------------------- 
 <br>
-                                [INFO ] [2022-06-04 09:08:19,318] Step 6: Verify error 'Password' message
+                                [INFO ] [2022-06-09 13:02:56,005] Step 6: Verify error 'Password' message
 <br>
-                                [INFO ] [2022-06-04 09:08:19,350]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:56,035]  -------------------------- PASSED -------------------------- 
 <br>
-                                [INFO ] [2022-06-04 09:08:19,350] Step 7: Verify error 'Confirm Password' message
+                                [INFO ] [2022-06-09 13:02:56,036] Step 7: Verify error 'Confirm Password' message
 <br>
-                                [INFO ] [2022-06-04 09:08:19,381]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:56,066]  -------------------------- PASSED -------------------------- 
 <br>
                   </div>
     
@@ -142,29 +715,29 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
                   TC_02_Register_Invalid_Email
       </td>
   <td class="duration">
-    1.877s
+    1.152s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2022-06-04 09:08:19,384] Step 8: Refesh 'Register' 
+                        [INFO ] [2022-06-09 13:02:56,068] Step 8: Refesh 'Register' 
 <br>
-                                [INFO ] [2022-06-04 09:08:20,460] Step 9: Enter to 'First Name' textbox
+                                [INFO ] [2022-06-09 13:02:56,411] Step 9: Enter to 'First Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:20,559] Step 10: Enter to 'Last Name' textbox
+                                [INFO ] [2022-06-09 13:02:56,555] Step 10: Enter to 'Last Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:20,652] Step 11: Enter to 'Email' textbox
+                                [INFO ] [2022-06-09 13:02:56,697] Step 11: Enter to 'Email' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:20,746] Step 12: Enter to 'Passowrd' textbox
+                                [INFO ] [2022-06-09 13:02:56,834] Step 12: Enter to 'Passowrd' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:20,842] Step 13: Enter to 'Confirm Password' textbox
+                                [INFO ] [2022-06-09 13:02:56,964] Step 13: Enter to 'Confirm Password' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:20,933] Step 14: Click to 'Register' button 
+                                [INFO ] [2022-06-09 13:02:57,097] Step 14: Click to 'Register' button 
 <br>
-                                [INFO ] [2022-06-04 09:08:21,220] Step 15: Verify error 'Email' message
+                                [INFO ] [2022-06-09 13:02:57,184] Step 15: Verify error 'Email' message
 <br>
-                                [INFO ] [2022-06-04 09:08:21,259]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:57,219]  -------------------------- PASSED -------------------------- 
 <br>
                   </div>
     
@@ -173,32 +746,34 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
 </tr>
 <tr>
   <td class="method">
-                  TC_03_Register_Existed_Email
+                  TC_03_Register_Valid_Information
       </td>
   <td class="duration">
-    2.026s
+    2.511s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2022-06-04 09:08:21,261] Step 16: Refesh 'Register' 
+                        [INFO ] [2022-06-09 13:02:57,221] Step 16: Refesh 'Register' 
 <br>
-                                [INFO ] [2022-06-04 09:08:22,393] Step 9: Enter to 'First Name' textbox
+                                [INFO ] [2022-06-09 13:02:57,231] Step 17: Enter to 'First Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:22,497] Step 10: Enter to 'Last Name' textbox
+                                [INFO ] [2022-06-09 13:02:57,660] Step 18: Enter to 'Last Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:22,588] Step 11: Enter to 'Email' textbox
+                                [INFO ] [2022-06-09 13:02:57,788] Step 19: Enter to 'Email' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:22,686] Step 12: Enter to 'Passowrd' textbox
+                                [INFO ] [2022-06-09 13:02:57,931] Step 20: Enter to 'Passowrd' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:22,775] Step 13: Enter to 'Confirm Password' textbox
+                                [INFO ] [2022-06-09 13:02:58,066] Step 21: Enter to 'Confirm Password' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:22,869] Step 14: Click to 'Register' button 
+                                [INFO ] [2022-06-09 13:02:58,243] Step 22: Click to 'Register' button 
 <br>
-                                [INFO ] [2022-06-04 09:08:23,259] Step 15: Verify error 'Email' message
+                                [INFO ] [2022-06-09 13:02:59,028] Step 23: Verify Success Message
 <br>
-                                [INFO ] [2022-06-04 09:08:23,286]  -------------------------- PASSED -------------------------- 
+                                [INFO ] [2022-06-09 13:02:59,067]  -------------------------- PASSED -------------------------- 
+<br>
+                                [INFO ] [2022-06-09 13:02:59,067] Step 24: Click to 'Log out' button
 <br>
                   </div>
     
@@ -207,28 +782,66 @@ Session ID: a999ec16-e49b-44f2-a48e-e302c816690d<br/>
 </tr>
 <tr>
   <td class="method">
-                  TC_05_Register_Valid_Information
+                  TC_04_Register_Short_Password
       </td>
   <td class="duration">
-    0.001s
+    1.622s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2022-06-04 09:08:23,441] Step 1: Click to 'Register' page on header menu
+                        [INFO ] [2022-06-09 13:02:59,734] Step 25: Refesh 'Register' 
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 2: Click to 'Gender' redio button on
+                                [INFO ] [2022-06-09 13:03:00,494] Step 26: Enter to 'First Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'First Name' textbox
+                                [INFO ] [2022-06-09 13:03:00,631] Step 27: Enter to 'Last Name' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Last Name' textbox
+                                [INFO ] [2022-06-09 13:03:00,757] Step 28: Enter to 'Email' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Passowrd' textbox
+                                [INFO ] [2022-06-09 13:03:00,903] Step 29: Enter to 'Passowrd' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 3: Enter to 'Confirm Password' textbox
+                                [INFO ] [2022-06-09 13:03:01,084] Step 30: Enter to 'Confirm Password' textbox
 <br>
-                                [INFO ] [2022-06-04 09:08:23,441] Step 4: Click to 'Register' button 
+                                [INFO ] [2022-06-09 13:03:01,220] Step 31: Click to 'Register' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:01,316] Step 32: Verify error 'Password' message
+<br>
+                                [INFO ] [2022-06-09 13:03:01,354]  -------------------------- PASSED -------------------------- 
+<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC_05_Register_Exist_Email
+      </td>
+  <td class="duration">
+    1.507s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        [INFO ] [2022-06-09 13:03:01,356] Step 33: Click to 'Register' link on header menu
+<br>
+                                [INFO ] [2022-06-09 13:03:01,366] Step 34: Enter to 'First Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:01,841] Step 35: Enter to 'Last Name' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:01,967] Step 36: Enter to 'Email' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:02,111] Step 37: Enter to 'Passowrd' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:02,245] Step 38: Enter to 'Confirm Password' textbox
+<br>
+                                [INFO ] [2022-06-09 13:03:02,385] Step 39: Click to 'Register' button 
+<br>
+                                [INFO ] [2022-06-09 13:03:02,831] Step 40: Verify Success Message
+<br>
+                                [INFO ] [2022-06-09 13:03:02,862]  -------------------------- PASSED -------------------------- 
 <br>
                   </div>
     

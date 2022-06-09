@@ -2,30 +2,42 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	private  WebDriver driver;
-
+	private WebDriver driver;
+	protected static final String EMAIL_RANDOM = getRandomEmail();
 	protected final Log log;
+	
+	
 
 	// Constructor
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
+	
 
 	protected WebDriver getBrowserDriver(String browserName) {
 		if (browserName.equalsIgnoreCase("firefox")) {
@@ -40,7 +52,7 @@ public class BaseTest {
 		} else {
 			throw new RuntimeException("Please enter correct browser name!");
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 
 		return driver;
 	}
@@ -57,6 +69,42 @@ public class BaseTest {
 			driver = new EdgeDriver();
 		} else {
 			throw new RuntimeException("Please enter correct browser name!");
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(appUrl);
+
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriver(String browserName, String appUrl, String ipAddress, String portNumber) {
+		DesiredCapabilities capability = null;
+		if (browserName.equalsIgnoreCase("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			capability = DesiredCapabilities.firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(Platform.WINDOWS);
+			FirefoxOptions options = new FirefoxOptions();
+			options.merge(capability);
+		} else if (browserName.equalsIgnoreCase("chrome")) {
+			capability = DesiredCapabilities.chrome();
+			capability.setBrowserName("chrome");
+			capability.setPlatform(Platform.WINDOWS);
+			ChromeOptions options = new ChromeOptions();
+			options.merge(capability);
+		} else if (browserName.equalsIgnoreCase("edge_chrominum")) {
+			WebDriverManager.edgedriver().setup();
+			capability = DesiredCapabilities.edge();
+			capability.setBrowserName("edge");
+			capability.setPlatform(Platform.WINDOWS);
+			EdgeOptions options = new EdgeOptions();
+			options.merge(capability);
+		} else {
+			throw new RuntimeException("Please enter correct browser name!");
+		}
+		try {
+			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+		} catch(MalformedURLException e){
+			e.printStackTrace();
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(appUrl);
@@ -125,13 +173,16 @@ public class BaseTest {
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
 	}
-	public String getRandomEmail() {
+	
+	public static String  getRandomEmail() {
 		Random rand = new Random();
 		return "dungvutuan" + rand.nextInt(99999) + "@gmail.com";
 	}
+
 	public WebDriver getDriver() {
 		return this.driver;
 	}
+
 	@BeforeTest
 	public void deleteAllFilesInReportNGScreenshot() {
 		System.out.println("---------- START delete file in folder ----------");
@@ -155,6 +206,7 @@ public class BaseTest {
 			System.out.print(e.getMessage());
 		}
 	}
+
 	protected void closeBrowserAndDriver() {
 		String cmd = "";
 		try {

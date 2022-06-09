@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="NopCommerce User">
+<suite parallel="false" name="NopCommerce User" >
 	
 	<parameter name="appUrl" value="https://demo.nopcommerce.com/"/>
 	
@@ -13,14 +13,28 @@
 		
 	</listeners>
 	
-	
-	
-	
-	
-	<test name="Run on Firefox">
-		<parameter name="browser" value="firefox" />
+	<test name="Run on Chrome laptop">
+		<parameter name="browser" value="chrome" />
 		<classes>
+			<parameter name="ipAddress" value="192.168.1.25"/>
+			<parameter name="port" value="5555"/>
 			<class name="com.nopcommerce.user.Register_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Login_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Account_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Product_User_Nopcommerce"/>
+		</classes>
+	</test>
+	
+	
+	<test name="Run on Chrome desktop">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<parameter name="ipAddress" value="192.168.1.19"/>
+			<parameter name="port" value="9999"/>
+			<class name="com.nopcommerce.user.Register_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Login_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Account_User_Nopcommerce"/>
+			<class name="com.nopcommerce.user.Product_User_Nopcommerce"/>
 		</classes>
 	</test>
 	

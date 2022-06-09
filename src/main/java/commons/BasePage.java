@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageUIs.admin.nopCommerce.ProductDetailPageUI;
 import pageUIs.user.Nopcommerece.BasePageUIs;
+import pageUIs.user.Nopcommerece.MyAccountPageUIs;
 
 public class BasePage {
 	public String getPageUrl(WebDriver driver) {
@@ -48,6 +50,7 @@ public class BasePage {
 	public void acceptAlert(WebDriver driver) {
 		alert = waitForAlertPresense(driver);
 		alert.accept();
+
 	}
 
 	public void cancelAlert(WebDriver driver) {
@@ -63,6 +66,20 @@ public class BasePage {
 	public String getAlertText(WebDriver driver) {
 		alert = waitForAlertPresense(driver);
 		return alert.getText();
+	}
+
+	public boolean isAlertPresent(WebDriver driver) {
+		overideGlobalTimeOut(driver, alertTimeout);
+		explicitWait = new WebDriverWait(driver, alertTimeout);
+		try {
+			explicitWait.until(ExpectedConditions.alertIsPresent());
+			overideGlobalTimeOut(driver, longtTimeout);
+			return true;
+		} catch (Exception e) {
+			overideGlobalTimeOut(driver, longtTimeout);
+			return false;
+		}
+
 	}
 
 	public void switchToWindowByID(WebDriver driver, String parentID) {
@@ -149,8 +166,18 @@ public class BasePage {
 		select.selectByVisibleText(itemText);
 	}
 
+	public void selectDropdownByText(WebDriver driver, String locator, String itemText, String... params) {
+		select = new Select(getElement(driver, castDynamicLocator(locator, params)));
+		select.selectByVisibleText(itemText);
+	}
+
 	public String getSelectedItemDropdown(WebDriver driver, String locator) {
 		select = new Select(getElement(driver, locator));
+		return select.getFirstSelectedOption().getText();
+	}
+
+	public String getSelectedItemDropdown(WebDriver driver, String locator, String... params) {
+		select = new Select(getElement(driver, castDynamicLocator(locator, params)));
 		return select.getFirstSelectedOption().getText();
 	}
 
@@ -200,6 +227,12 @@ public class BasePage {
 		}
 	}
 
+	public void checkToCheckboxOrRadio(WebDriver driver, String locator, String... params) {
+		if (!isElementSelected(driver, castDynamicLocator(locator, params))) {
+			getElement(driver, castDynamicLocator(locator, params)).click();
+		}
+	}
+
 	public void uncheckToCheckbox(WebDriver driver, String locator) {
 		if (isElementSelected(driver, locator)) {
 			getElement(driver, locator).click();
@@ -211,6 +244,19 @@ public class BasePage {
 	}
 
 	public boolean isElementUnDisplayed(WebDriver driver, String locator) {
+		overideGlobalTimeOut(driver, shortTimeout);
+		List<WebElement> elements = getElements(driver, locator);
+		overideGlobalTimeOut(driver, longtTimeout);
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public boolean isElementUnDisplayed(WebDriver driver, String locator, String...params) {
 		overideGlobalTimeOut(driver, shortTimeout);
 		List<WebElement> elements = getElements(driver, locator);
 		overideGlobalTimeOut(driver, longtTimeout);
@@ -251,6 +297,11 @@ public class BasePage {
 	public void hoverToElement(WebDriver driver, String locator) {
 		action = new Actions(driver);
 		action.moveToElement(getElement(driver, locator)).perform();
+	}
+
+	public void hoverToElement(WebDriver driver, String locator, String... params) {
+		action = new Actions(driver);
+		action.moveToElement(getElement(driver, castDynamicLocator(locator, params))).perform();
 	}
 
 	public void doubleClickToElement(WebDriver driver, String locator) {
@@ -315,6 +366,11 @@ public class BasePage {
 	public void clickToElementByJS(WebDriver driver, String locator) {
 		jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click();", getElement(driver, locator));
+	}
+
+	public void clickToElementByJS(WebDriver driver, String locator, String... params) {
+		jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].click();", getElement(driver, castDynamicLocator(locator, params)));
 	}
 
 	public void scrollToElement(WebDriver driver, String locator) {
@@ -435,6 +491,16 @@ public class BasePage {
 	public String castDynamicLocator(String locator, String... params) {
 		return String.format(locator, (Object[]) params);
 	}
+
+	public void addCookies(WebDriver driver, Set<Cookie> allCookies) {
+		for (Cookie cookie : allCookies) {
+			driver.manage().addCookie(cookie);
+		}
+	}
+
+	public Set<Cookie> getCookies(WebDriver driver) {
+		return driver.manage().getCookies();
+	}
 //
 
 	// Nopcommerce admin
@@ -455,27 +521,80 @@ public class BasePage {
 
 	}
 
+	public void clickToHeaderLinkByClassAttributeJS(WebDriver driver, String value) {
+
+		clickToElementByJS(driver, BasePageUIs.HEADER_UPPER_LINK_BY_CLASS, value);
+	}
+
 	public void clickToButtonByText(WebDriver driver, String value) {
 		waitForElementClickable(driver, BasePageUIs.BUTTON_BY_TEXT, value);
 		clickToElement(driver, BasePageUIs.BUTTON_BY_TEXT, value);
 
 	}
 
-	public boolean isErrorMessageDisplayed(WebDriver driver, String id, String message) {
+	public boolean isErrorMessageDisplayed(WebDriver driver, String message, String id) {
 		return isElementDisplayed(driver, BasePageUIs.ERROR_MESSAGE_BY_ID, id, message);
 	}
 
-	public void sendKeyToTextBoxByName(WebDriver driver, String textboxName, String value) {
+	public void sendKeyToTextBoxByName(WebDriver driver, String value, String textboxName) {
 		waitForElementVisisble(driver, BasePageUIs.TEXTBOX_BY_NAME, textboxName);
 		sendKeyToElement(driver, BasePageUIs.TEXTBOX_BY_NAME, value, textboxName);
+		System.out.println(value);
 
 	}
+
+	public boolean isErrorMessageDisplayed(WebDriver driver, String value) {
+		return isElementDisplayed(driver, BasePageUIs.ERROR_MESSAGE_BY_STRING, value);
+	}
+
+	public boolean isHeaderLinkButtonDisplayed(WebDriver driver, String className) {
+		return isElementDisplayed(driver, BasePageUIs.HEADER_UPPER_LINK_BY_CLASS, className);
+	}
+
+	public String getTextboxAttribute(WebDriver driver, String texboxName, String attributeName) {
+		waitForElementVisisble(driver, BasePageUIs.TEXTBOX_BY_NAME, texboxName);
+		return getElementAttribute(driver, BasePageUIs.TEXTBOX_BY_NAME, attributeName, texboxName);
+
+	}
+
+	public void clickToProductByText(WebDriver driver, String value) {
+		waitForElementClickable(driver, BasePageUIs.PRODUCT_ITEM_BY_TEXT, value);
+		clickToElement(driver, BasePageUIs.PRODUCT_ITEM_BY_TEXT, value);
+
+	}
+
+	public String getDropdownfirstText(WebDriver driver, String nameDropdown) {
+		waitForElementVisisble(driver, MyAccountPageUIs.DATE_OF_BIRTH, nameDropdown);
+		return getSelectedItemDropdown(driver, MyAccountPageUIs.DATE_OF_BIRTH, nameDropdown);
+
+	}
+
+	public void refreshCurrentPageNopcom(WebDriver driver) {
+		driver.navigate().refresh();
+		if (driver.toString().toLowerCase().contains("firefox") && isAlertPresent(driver)) {
+			acceptAlert(driver);
+		}
+	}
+
+	public void clickToHeaderSubmenu(WebDriver driver, String menuName, String subMenuName) {
+		waitForElementClickable(driver, BasePageUIs.HEADER_SUBMENU, menuName, subMenuName);
+		clickToElement(driver, BasePageUIs.HEADER_SUBMENU, menuName, subMenuName);
+	}
+
+	public void hoverToHeaderMenu(WebDriver driver, String menuName) {
+		waitForElementVisisble(driver, BasePageUIs.HEADER_MENU, menuName);
+		hoverToElement(driver, BasePageUIs.HEADER_MENU, menuName);
+
+	}
+
+	
 
 	private Alert alert;
 	private Select select;
 	private Actions action;
 	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 	private long longtTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long alertTimeout = GlobalConstants.ALERT_TIMEOUT;
 	JavascriptExecutor jsExecutor;
 	private WebDriverWait explicitWait;
 }

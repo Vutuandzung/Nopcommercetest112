@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Run on Firefox"
+<testsuite name="Run on Chrome laptop"
            tests="5"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="11.527">
+           time="11.759">
   <properties />
-            <testcase name="TC_05_Register_Short_Password" time="5.104" classname="com.nopcommerce.user.Register_User_Nopcommerce">
-                <failure type="org.openqa.selenium.UnhandledAlertException"
-                  message="Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}"
-              >
-<![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1T195I4', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name='FirstName']}
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-  commons.BasePage.waitForElementVisisble(BasePage.java:405)
-  commons.BasePage.sendKeyToTextBoxByName(BasePage.java:469)
-  com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password(Register_User_Nopcommerce.java:155)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:566)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-  org.testng.TestRunner.privateRun(TestRunner.java:648)
-  org.testng.TestRunner.run(TestRunner.java:505)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-  org.testng.SuiteRunner.run(SuiteRunner.java:364)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-  org.testng.TestNG.runSuites(TestNG.java:1049)
-  org.testng.TestNG.run(TestNG.java:1017)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="TC_01_Register_Empty_Data" time="0.981" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_02_Register_Invalid_Email" time="1.283" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_03_Register_Valid_Information" time="2.966" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_04_Register_Exist_Email" time="1.193" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+            <testcase name="TC_05_Register_Exist_Email" time="2.275" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_02_Register_Invalid_Email" time="1.902" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_03_Register_Valid_Information" time="3.642" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_01_Register_Empty_Data" time="1.461" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_04_Register_Short_Password" time="2.479" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
       
 </testsuite>

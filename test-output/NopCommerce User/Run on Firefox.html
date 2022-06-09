@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run on Firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 04 20:56:17 PDT 2022</td>
+<td>Started on:</td><td>Tue Jun 07 18:27:56 PDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15800 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25413 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,63 +75,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password()'><b>TC_05_Register_Short_Password</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-2092912524" onClick='toggleBox("Output-2092912524", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A()'><b>TC_02_Sort_Name_Z_To_A</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-1887701594" onClick='toggleBox("Output-1887701594", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2092912524" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2092912524">
-[INFO ] [2022-06-04 20:56:28,312] Step 16: Refesh 'Register' 
+<a href="#Output-1887701594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1887701594">
+[INFO ] [2022-06-07 18:28:03,472] Step 1: Click to Sort Z to A
 <br><br/>
-[INFO ] [2022-06-04 20:56:33,370] Step 3: Enter to 'First Name' textbox
+[INFO ] [2022-06-07 18:28:04,322]  -------------------------- PASSED -------------------------- 
 <br><br/>
-<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_05_Register_Short_Password_04_06_2022_08_56_33.png" height='100' width='150'/> </a></br><br/>
+[INFO ] [2022-06-07 18:28:04,323] Step 2: Click to Sort Z to A
+<br><br/>
+[INFO ] [2022-06-07 18:28:04,460]  -------------------------- FAILED -------------------------- 
+<br><br/>
+<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_07_06_2022_06_28_04.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_07_06_2022_06_28_04.png" height='100' width='150'/> </a></br><br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at commons.BasePage.waitForElementVisisble(BasePage.java:405)
-	at commons.BasePage.sendKeyToTextBoxByName(BasePage.java:469)
-	at com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password(Register_User_Nopcommerce.java:155)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2092912524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2092912524'><pre>org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1T195I4&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2608, moz:profile: C:\Users\Welcome\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5656d00-8086-42dc-a712-0eae77cce054
-*** Element info: {Using=xpath, value=//input[@name=&apos;FirstName&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at commons.BasePage.waitForElementVisisble(BasePage.java:405)
-	at commons.BasePage.sendKeyToTextBoxByName(BasePage.java:469)
-	at com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Short_Password(Register_User_Nopcommerce.java:155)
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at commons.BaseTest.checkTrue(BaseTest.java:76)
+	at commons.BaseTest.verifyTrue(BaseTest.java:88)
+	at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1887701594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1887701594'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at commons.BaseTest.checkTrue(BaseTest.java:76)
+	at commons.BaseTest.verifyTrue(BaseTest.java:88)
+	at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -158,8 +130,8 @@ Session ID: b5656d00-8086-42dc-a712-0eae77cce054
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>5</td>
-<td>com.nopcommerce.user.Register_User_Nopcommerce@76f856a8</td></tr>
+<td>0</td>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -169,129 +141,143 @@ Session ID: b5656d00-8086-42dc-a712-0eae77cce054
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_01_Register_Empty_Data()'><b>TC_01_Register_Empty_Data</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-104803851" onClick='toggleBox("Output-104803851", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_01_Sort_Name_A_To_Z()'><b>TC_01_Sort_Name_A_To_Z</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-1956602275" onClick='toggleBox("Output-1956602275", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-104803851" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-104803851">
-[INFO ] [2022-06-04 20:56:21,854] Step 1: Click to 'Register' link on header menu
+<a href="#Output-1956602275" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1956602275">
+[INFO ] [2022-06-07 18:28:02,400] Step 1: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-04 20:56:22,327] Step 2: Click to 'Register' button
+[INFO ] [2022-06-07 18:28:03,259]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-04 20:56:22,612] Step 3: Verify error 'First Name' message
+[INFO ] [2022-06-07 18:28:03,262] Step 2: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-04 20:56:22,651]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,653] Step 4: Verify error 'Last Name' message
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,681]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,681] Step 5: Verify error 'Email' message
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,713]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,713] Step 6: Verify error 'Password' message
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,745]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,745] Step 7: Verify error 'Confirm Password' message
-<br><br/>
-[INFO ] [2022-06-04 20:56:22,777]  -------------------------- PASSED -------------------------- 
-<br><br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.nopcommerce.user.Register_User_Nopcommerce@76f856a8</td></tr>
-<tr>
-<td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_02_Register_Invalid_Email()'><b>TC_02_Register_Invalid_Email</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-89750691" onClick='toggleBox("Output-89750691", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-89750691" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-89750691">
-[INFO ] [2022-06-04 20:56:22,860] Step 8: Refesh 'Register' 
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,372] Step 9: Enter to 'First Name' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,461] Step 10: Enter to 'Last Name' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,553] Step 11: Enter to 'Email' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,645] Step 12: Enter to 'Passowrd' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,740] Step 13: Enter to 'Confirm Password' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:23,833] Step 14: Click to 'Register' button 
-<br><br/>
-[INFO ] [2022-06-04 20:56:24,108] Step 15: Verify error 'Email' message
-<br><br/>
-[INFO ] [2022-06-04 20:56:24,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-07 18:28:03,407]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.nopcommerce.user.Register_User_Nopcommerce@76f856a8</td></tr>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
 <tr>
-<td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_03_Register_Valid_Information()'><b>TC_03_Register_Valid_Information</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-814387812" onClick='toggleBox("Output-814387812", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_03_Sort_Price_Low_To_High()'><b>TC_03_Sort_Price_Low_To_High</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-263373555" onClick='toggleBox("Output-263373555", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-814387812" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-814387812">
-[INFO ] [2022-06-04 20:56:24,151] Step 16: Refesh 'Register' 
+<a href="#Output-263373555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-263373555">
+[INFO ] [2022-06-07 18:28:04,551] Step 1: Click to Sort Low to High
 <br><br/>
-[INFO ] [2022-06-04 20:56:25,213] Step 9: Enter to 'First Name' textbox
+[INFO ] [2022-06-07 18:28:05,413]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-04 20:56:25,302] Step 10: Enter to 'Last Name' textbox
+[INFO ] [2022-06-07 18:28:05,413] Step 2: Click to Sort Low to High
 <br><br/>
-[INFO ] [2022-06-04 20:56:25,399] Step 11: Enter to 'Email' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:25,496] Step 12: Enter to 'Passowrd' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:25,583] Step 13: Enter to 'Confirm Password' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:25,676] Step 14: Click to 'Register' button 
-<br><br/>
-[INFO ] [2022-06-04 20:56:26,415] Step 15: Verify Success Message
-<br><br/>
-[INFO ] [2022-06-04 20:56:26,455]  -------------------------- PASSED -------------------------- 
-<br><br/>
-[INFO ] [2022-06-04 20:56:26,455] Step 16: Click to 'Log out' button
-<br><br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>com.nopcommerce.user.Register_User_Nopcommerce@76f856a8</td></tr>
-<tr>
-<td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_04_Register_Exist_Email()'><b>TC_04_Register_Exist_Email</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-893734010" onClick='toggleBox("Output-893734010", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-893734010" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-893734010">
-[INFO ] [2022-06-04 20:56:27,120] Step 17: Click to 'Register' link on header menu
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,136] Step 9: Enter to 'First Name' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,515] Step 10: Enter to 'Last Name' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,608] Step 11: Enter to 'Email' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,708] Step 12: Enter to 'Passowrd' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,796] Step 13: Enter to 'Confirm Password' textbox
-<br><br/>
-[INFO ] [2022-06-04 20:56:27,888] Step 14: Click to 'Register' button 
-<br><br/>
-[INFO ] [2022-06-04 20:56:28,273] Step 15: Verify Success Message
-<br><br/>
-[INFO ] [2022-06-04 20:56:28,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-07 18:28:05,555]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.nopcommerce.user.Register_User_Nopcommerce@76f856a8</td></tr>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_04_Sort_Price_High_To_Low()'><b>TC_04_Sort_Price_High_To_Low</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-1190799998" onClick='toggleBox("Output-1190799998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1190799998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1190799998">
+[INFO ] [2022-06-07 18:28:05,558] Step 1: Click to Sort High to Low
+<br><br/>
+[INFO ] [2022-06-07 18:28:06,418]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:06,418] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:06,560]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_05_Product_Display_03_Product()'><b>TC_05_Product_Display_03_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-1683227460" onClick='toggleBox("Output-1683227460", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1683227460" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1683227460">
+[INFO ] [2022-06-07 18:28:06,563] Step 1: Click to Sort A to Z
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,414]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,414] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,505]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,505] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,542]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:07,543] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:08,378]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:08,378] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:08,410]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_06_Product_Display_06_Product()'><b>TC_06_Product_Display_06_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-827530509" onClick='toggleBox("Output-827530509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827530509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827530509">
+[INFO ] [2022-06-07 18:28:08,413] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:09,232]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:09,233] Step 1: Click to Sort A to Z
+<br><br/>
+[INFO ] [2022-06-07 18:28:10,083]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:10,083] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:10,223]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:10,224] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:15,272]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_07_Product_Display_09_Product()'><b>TC_07_Product_Display_09_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
+<a href="#Output-1107514015" onClick='toggleBox("Output-1107514015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107514015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107514015">
+[INFO ] [2022-06-07 18:28:15,275] Step 1: Click to Sort A to Z
+<br><br/>
+[INFO ] [2022-06-07 18:28:16,134]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:16,134] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:16,252]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-06-07 18:28:16,252] Step 2: Click to Sort High to High
+<br><br/>
+[INFO ] [2022-06-07 18:28:21,315]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.nopcommerce.user.Product_User_Nopcommerce@2b329bbd</td></tr>
 </table><p>
 </body>
 </html>

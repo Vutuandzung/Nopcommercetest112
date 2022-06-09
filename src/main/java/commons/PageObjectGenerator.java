@@ -3,6 +3,9 @@ package commons;
 import org.openqa.selenium.WebDriver;
 
 import pageObject.User.Nopcommerce.HomePageObject;
+import pageObject.User.Nopcommerce.LoginUserPageObject;
+import pageObject.User.Nopcommerce.MyAccountPageObject;
+import pageObject.User.Nopcommerce.ProductPageObject;
 import pageObject.User.Nopcommerce.RegisterPageObject;
 import pageObject.admin.nopCommerce.LoginPageObject;
 import pageObject.admin.nopCommerce.MyDasboardPageObject;
@@ -20,9 +23,13 @@ public class PageObjectGenerator {
 		return new PageObjectGenerator();
 	}
 
-	public LoginPageObject getLoginPage(WebDriver driver) {
+	public LoginPageObject getLoginPageAdmin(WebDriver driver) {
 
 		return new LoginPageObject(driver);
+	}
+
+	public LoginUserPageObject getLoginPageUser(WebDriver driver) {
+		return new LoginUserPageObject(driver);
 	}
 
 	public ProductDetailPageObject getProductDetailPage(WebDriver driver) {
@@ -41,11 +48,22 @@ public class PageObjectGenerator {
 	}
 
 	public HomePageObject getHomePage(WebDriver driver) {
-		
+
 		return new HomePageObject(driver);
 	}
+
 	public RegisterPageObject getRegisterPage(WebDriver driver) {
 
 		return new RegisterPageObject(driver);
+	}
+
+	public MyAccountPageObject getAccountPage(WebDriver driver) {
+
+		return new MyAccountPageObject(driver);
+	}
+
+	public ProductPageObject getProductPage(WebDriver driver) {
+
+		return new ProductPageObject(driver);
 	}
 }
