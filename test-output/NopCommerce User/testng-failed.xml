@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NopCommerce User]">
+<suite thread-count="2" parallel="tests" name="Failed suite [NopCommerce User]">
   <parameter name="appUrl" value="https://demo.nopcommerce.com/"/>
   <listeners>
     <listener class-name="commons.MethodListener"/>
@@ -8,22 +8,7 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="reportConfig.ReportNGListener"/>
   </listeners>
-  <test thread-count="5" name="Run on Chrome laptop(failed)">
-    <parameter name="port" value="5555"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="ipAddress" value="192.168.1.25"/>
-    <classes>
-      <class name="com.nopcommerce.user.Product_User_Nopcommerce">
-        <methods>
-          <include name="TC_02_Sort_Name_Z_To_A"/>
-          <include name="deleteAllFilesInReportNGScreenshot"/>
-          <include name="beforeClass"/>
-          <include name="afterclass"/>
-        </methods>
-      </class> <!-- com.nopcommerce.user.Product_User_Nopcommerce -->
-    </classes>
-  </test> <!-- Run on Chrome laptop(failed) -->
-  <test thread-count="5" name="Run on Chrome desktop(failed)">
+  <test thread-count="2" parallel="tests" name="Run on Chrome desktop(failed)">
     <parameter name="port" value="9999"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="ipAddress" value="192.168.1.19"/>
@@ -38,4 +23,19 @@
       </class> <!-- com.nopcommerce.user.Product_User_Nopcommerce -->
     </classes>
   </test> <!-- Run on Chrome desktop(failed) -->
+  <test thread-count="2" parallel="tests" name="Run on Chrome laptop(failed)">
+    <parameter name="port" value="5555"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="ipAddress" value="192.168.1.7"/>
+    <classes>
+      <class name="com.nopcommerce.user.Product_User_Nopcommerce">
+        <methods>
+          <include name="TC_02_Sort_Name_Z_To_A"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="beforeClass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Product_User_Nopcommerce -->
+    </classes>
+  </test> <!-- Run on Chrome laptop(failed) -->
 </suite> <!-- Failed suite [NopCommerce User] -->

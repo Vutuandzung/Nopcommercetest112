@@ -10,6 +10,9 @@ import pageObject.User.Nopcommerce.RegisterPageObject;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+import java.util.concurrent.ThreadLocalRandom;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
@@ -25,6 +28,8 @@ public class Register_User_Nopcommerce extends BaseTest {
 		homePage = PageObjectGenerator.getPOG().getHomePage(driver);
 		firstName = "John";
 		lastName = "Wick";
+		emailRd.set("dungvutuan" + ThreadLocalRandom.current().nextInt(9999) + "@gmail.com");
+		emailEdit.set("dungvutuan" + ThreadLocalRandom.current().nextInt(9999) + "@gmail.com");
 
 	}
 
@@ -95,7 +100,7 @@ public class Register_User_Nopcommerce extends BaseTest {
 		registerPage.sendKeyToTextBoxByName(driver, lastName, "LastName");
 
 		log.info("Step 19: Enter to 'Email' textbox");
-		registerPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		registerPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 
 		log.info("Step 20: Enter to 'Passowrd' textbox");
 		registerPage.sendKeyToTextBoxByName(driver, "123456", "Password");
@@ -156,7 +161,7 @@ public class Register_User_Nopcommerce extends BaseTest {
 		registerPage.sendKeyToTextBoxByName(driver, lastName + "hc", "LastName");
 
 		log.info("Step 36: Enter to 'Email' textbox");
-		registerPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		registerPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 
 		log.info("Step 37: Enter to 'Passowrd' textbox");
 		registerPage.sendKeyToTextBoxByName(driver, "123456", "Password");

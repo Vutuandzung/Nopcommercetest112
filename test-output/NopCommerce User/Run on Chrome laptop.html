@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 09 13:01:23 PDT 2022</td>
+<td>Started on:</td><td>Mon Jun 13 02:56:23 PDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>89 seconds (89626 ms)</td>
+<tr><td>Total time:</td><td>104 seconds (104266 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,33 +76,37 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A()'><b>TC_02_Sort_Name_Z_To_A</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-1563149382" onClick='toggleBox("Output-1563149382", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1898965033" onClick='toggleBox("Output-1898965033", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1563149382" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1563149382">
-[INFO ] [2022-06-09 13:02:31,156] Step 1: Click to Sort Z to A
+<a href="#Output-1898965033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1898965033">
+[INFO ] [2022-06-13 02:57:47,213] Step 1: Click to Sort Z to A
 <br><br/>
-[INFO ] [2022-06-09 13:02:31,919]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:48,037]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:31,919] Step 2: Click to Sort Z to A
+[INFO ] [2022-06-13 02:57:48,037] Step 2: Click to Sort Z to A
 <br><br/>
-[INFO ] [2022-06-09 13:02:32,362]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-06-13 02:57:48,556]  -------------------------- FAILED -------------------------- 
 <br><br/>
-<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_09_06_2022_01_02_32.png" height='100' width='150'/> </a></br><br/>
+<br><a target="_blank" href="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_13_06_2022_02_57_48.png"><img src="file:///E:\Automation Testing\04. Maven Automation Framework\ReportNGScreenShots\TC_02_Sort_Name_Z_To_A_13_06_2022_02_57_48.png" height='100' width='150'/> </a></br><br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at commons.BaseTest.checkTrue(BaseTest.java:123)
-	at commons.BaseTest.verifyTrue(BaseTest.java:135)
+	at commons.BaseTest.checkTrue(BaseTest.java:124)
+	at commons.BaseTest.verifyTrue(BaseTest.java:136)
 	at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1563149382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1563149382'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1898965033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1898965033'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
-	at commons.BaseTest.checkTrue(BaseTest.java:123)
-	at commons.BaseTest.verifyTrue(BaseTest.java:135)
+	at commons.BaseTest.checkTrue(BaseTest.java:124)
+	at commons.BaseTest.verifyTrue(BaseTest.java:136)
 	at com.nopcommerce.user.Product_User_Nopcommerce.TC_02_Sort_Name_Z_To_A(Product_User_Nopcommerce.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -117,18 +121,13 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
 	at org.testng.TestRunner.run(TestRunner.java:505)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>1</td>
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
@@ -142,76 +141,76 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nopcommerce.user.Account_User_Nopcommerce.TC_01_Account_Customer_Information()'><b>TC_01_Account_Customer_Information</b><br>Test class: com.nopcommerce.user.Account_User_Nopcommerce<br/>
-<a href="#Output-1104705467" onClick='toggleBox("Output-1104705467", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1644313867" onClick='toggleBox("Output-1644313867", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1104705467" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1104705467">
-[INFO ] [2022-06-09 13:01:58,828] Step 3: Click to 'My Account' header menu
+<a href="#Output-1644313867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1644313867">
+[INFO ] [2022-06-13 02:57:07,581] Step 3: Click to 'My Account' header menu
 <br><br/>
-[INFO ] [2022-06-09 13:01:59,670] Step 3: Click to 'Customer Info' sub menu
+[INFO ] [2022-06-13 02:57:08,482] Step 3: Click to 'Customer Info' sub menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:00,295] Step 3: Click to 'Gender' radio button
+[INFO ] [2022-06-13 02:57:09,195] Step 3: Click to 'Gender' radio button
 <br><br/>
-[INFO ] [2022-06-09 13:02:00,493] Step 3: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:57:09,456] Step 3: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:00,727] Step 3: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:57:09,725] Step 3: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:00,933] Step 3: Sellect 'Day' dropdown
+[INFO ] [2022-06-13 02:57:09,981] Step 3: Sellect 'Day' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:01,152] Step 3: Sellect 'Month' dropdown
+[INFO ] [2022-06-13 02:57:10,230] Step 3: Sellect 'Month' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:01,387] Step 3: Sellect 'Year' dropdown
+[INFO ] [2022-06-13 02:57:10,490] Step 3: Sellect 'Year' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:01,619] Step 3: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:57:10,734] Step 3: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:01,851] Step 3: Enter to 'Company Name' textbox
+[INFO ] [2022-06-13 02:57:11,017] Step 3: Enter to 'Company Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:02,143] Step 3: Click to 'Save' button
+[INFO ] [2022-06-13 02:57:11,295] Step 3: Click to 'Save' button
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,126] Step 3: Verify 'First Name' textbox
+[INFO ] [2022-06-13 02:57:16,481] Step 3: Verify 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,248]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:16,690]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,248] Step 3: Verify 'Last Name' textbox
+[INFO ] [2022-06-13 02:57:16,690] Step 3: Verify 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,373]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:16,916]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,373] Step 3: Verify 'Day' dropdown
+[INFO ] [2022-06-13 02:57:16,916] Step 3: Verify 'Day' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:17,353]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,582] Step 3: Verify 'Month' dropdown
+[INFO ] [2022-06-13 02:57:17,353] Step 3: Verify 'Month' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,781]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:17,738]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:03,781] Step 3: Verify 'Year' dropdown
+[INFO ] [2022-06-13 02:57:17,738] Step 3: Verify 'Year' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:05,017]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:20,633]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:05,017] Step 3: Verify 'Email' textbox
+[INFO ] [2022-06-13 02:57:20,633] Step 3: Verify 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:05,131]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:20,866]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:05,131] Step 3: Verify 'Company' textbox
+[INFO ] [2022-06-13 02:57:20,866] Step 3: Verify 'Company' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:05,277]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:21,065]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>6</td>
+<td>13</td>
 <td>com.nopcommerce.user.Account_User_Nopcommerce@6940f685</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_01_Login_Empty_Data()'><b>TC_01_Login_Empty_Data</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-2118829464" onClick='toggleBox("Output-2118829464", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-205337066" onClick='toggleBox("Output-205337066", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2118829464" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2118829464">
-[INFO ] [2022-06-09 13:01:42,299] Step 2: Click to 'Login' button with empty data
+<a href="#Output-205337066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-205337066">
+[INFO ] [2022-06-13 02:56:50,113] Step 2: Click to 'Login' button with empty data
 <br><br/>
-[INFO ] [2022-06-09 13:01:42,476] Step 2: Verify error message 
+[INFO ] [2022-06-13 02:56:50,312] Step 2: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:01:42,555]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:50,392]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -220,33 +219,33 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_01_Register_Empty_Data()'><b>TC_01_Register_Empty_Data</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-1092591822" onClick='toggleBox("Output-1092591822", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1242915144" onClick='toggleBox("Output-1242915144", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1092591822" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1092591822">
-[INFO ] [2022-06-09 13:01:26,665] Step 1: Click to 'Register' link on header menu
+<a href="#Output-1242915144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1242915144">
+[INFO ] [2022-06-13 02:56:27,192] Step 1: Click to 'Register' link on header menu
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,501] Step 2: Click to 'Register' button
+[INFO ] [2022-06-13 02:56:28,137] Step 2: Click to 'Register' button
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,691] Step 3: Verify error 'First Name' message
+[INFO ] [2022-06-13 02:56:28,358] Step 3: Verify error 'First Name' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,770]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:28,442]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,772] Step 4: Verify error 'Last Name' message
+[INFO ] [2022-06-13 02:56:28,442] Step 4: Verify error 'Last Name' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:28,523]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,848] Step 5: Verify error 'Email' message
+[INFO ] [2022-06-13 02:56:28,523] Step 5: Verify error 'Email' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,926]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:28,617]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:01:27,927] Step 6: Verify error 'Password' message
+[INFO ] [2022-06-13 02:56:28,617] Step 6: Verify error 'Password' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:28,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:28,721]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:01:28,005] Step 7: Verify error 'Confirm Password' message
+[INFO ] [2022-06-13 02:56:28,721] Step 7: Verify error 'Confirm Password' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:28,079]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:28,815]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -255,17 +254,17 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Register_User_Nopcommerce@45f421c</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_01_Sort_Name_A_To_Z()'><b>TC_01_Sort_Name_A_To_Z</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-585785425" onClick='toggleBox("Output-585785425", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-34007287" onClick='toggleBox("Output-34007287", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-585785425" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-585785425">
-[INFO ] [2022-06-09 13:02:29,810] Step 1: Click to Sort A to Z
+<a href="#Output-34007287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-34007287">
+[INFO ] [2022-06-13 02:57:45,831] Step 1: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-09 13:02:30,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:46,669]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:30,601] Step 2: Click to Sort A to Z
+[INFO ] [2022-06-13 02:57:46,670] Step 2: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-09 13:02:31,075]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:47,206]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -274,98 +273,98 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Account_User_Nopcommerce.TC_02_Account_Address()'><b>TC_02_Account_Address</b><br>Test class: com.nopcommerce.user.Account_User_Nopcommerce<br/>
-<a href="#Output-1785343965" onClick='toggleBox("Output-1785343965", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-915185603" onClick='toggleBox("Output-915185603", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1785343965" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1785343965">
-[INFO ] [2022-06-09 13:02:05,285] Step 3: Click to 'Address' sub menu
+<a href="#Output-915185603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-915185603">
+[INFO ] [2022-06-13 02:57:21,071] Step 3: Click to 'Address' sub menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:07,396] Step 3: Click to 'Add New' button
+[INFO ] [2022-06-13 02:57:21,998] Step 3: Click to 'Add New' button
 <br><br/>
-[INFO ] [2022-06-09 13:02:08,463] Step 3: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:57:23,196] Step 3: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:08,971] Step 3: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:57:23,545] Step 3: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:09,350] Step 3: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:57:23,884] Step 3: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:09,585] Step 3: Enter to 'Company' textbox
+[INFO ] [2022-06-13 02:57:24,183] Step 3: Enter to 'Company' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:09,803] Step 3: Select 'Country' dropdown
+[INFO ] [2022-06-13 02:57:24,456] Step 3: Select 'Country' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:10,027] Step 3: Select 'State' dropdown
+[INFO ] [2022-06-13 02:57:24,723] Step 3: Select 'State' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:10,336] Step 3: Enter to 'City' textbox
+[INFO ] [2022-06-13 02:57:24,995] Step 3: Enter to 'City' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:10,559] Step 3: Enter to 'Address 1' textbox
+[INFO ] [2022-06-13 02:57:25,296] Step 3: Enter to 'Address 1' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:10,780] Step 3: Enter to 'Address 2' textbox
+[INFO ] [2022-06-13 02:57:25,541] Step 3: Enter to 'Address 2' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:11,012] Step 3: Enter to 'Zip / postal code' textbox
+[INFO ] [2022-06-13 02:57:25,858] Step 3: Enter to 'Zip / postal code' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:11,238] Step 3: Enter to 'Phone number' textbox
+[INFO ] [2022-06-13 02:57:26,092] Step 3: Enter to 'Phone number' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:11,455] Step 3: Enter to 'Fax number' textbox
+[INFO ] [2022-06-13 02:57:26,357] Step 3: Enter to 'Fax number' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:11,673] Step 3: Click to 'Save' button
+[INFO ] [2022-06-13 02:57:26,619] Step 3: Click to 'Save' button
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,667] Step 3: Verify name
+[INFO ] [2022-06-13 02:57:27,614] Step 3: Verify name
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,751]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:27,698]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,752] Step 3: Verify 'Email' textbox
+[INFO ] [2022-06-13 02:57:27,698] Step 3: Verify 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,828]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:27,790]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,828] Step 3: Verify 'Company' textbox
+[INFO ] [2022-06-13 02:57:27,790] Step 3: Verify 'Company' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:27,883]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:12,908] Step 3: Verify 'Country' dropdown
+[INFO ] [2022-06-13 02:57:27,883] Step 3: Verify 'Country' dropdown
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,000]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:27,961]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,000] Step 3: Verify 'Address 1' textbox
+[INFO ] [2022-06-13 02:57:27,961] Step 3: Verify 'Address 1' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,078]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:28,059]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,078] Step 3: Verify 'Address 2' textbox
+[INFO ] [2022-06-13 02:57:28,059] Step 3: Verify 'Address 2' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,156]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:28,148]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,156] Step 3: Verify 'Zip / postal code' textbox
+[INFO ] [2022-06-13 02:57:28,148] Step 3: Verify 'Zip / postal code' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,241]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:28,243]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,241] Step 3: Verify 'Phone number' textbox
+[INFO ] [2022-06-13 02:57:28,243] Step 3: Verify 'Phone number' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:28,350]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,323] Step 3: Verify 'Fax number' textbox
+[INFO ] [2022-06-13 02:57:28,350] Step 3: Verify 'Fax number' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:13,401]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:28,441]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>8</td>
+<td>7</td>
 <td>com.nopcommerce.user.Account_User_Nopcommerce@6940f685</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_02_Login_Invalid_Email()'><b>TC_02_Login_Invalid_Email</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-1520947167" onClick='toggleBox("Output-1520947167", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-17105284" onClick='toggleBox("Output-17105284", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1520947167" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1520947167">
-[INFO ] [2022-06-09 13:01:42,560] Step 3: Refesh login page
+<a href="#Output-17105284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17105284">
+[INFO ] [2022-06-13 02:56:50,394] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:01:42,578] Step 4: Enter ivalid email to email textbox
+[INFO ] [2022-06-13 02:56:50,437] Step 4: Enter ivalid email to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:43,211] Step 5: Enter password to email textbox
+[INFO ] [2022-06-13 02:56:51,156] Step 5: Enter password to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:43,465] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:56:51,427] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:43,626] Step 7: Verify error message 
+[INFO ] [2022-06-13 02:56:51,615] Step 7: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:01:43,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:51,711]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -374,99 +373,99 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_02_Register_Invalid_Email()'><b>TC_02_Register_Invalid_Email</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-1342373353" onClick='toggleBox("Output-1342373353", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2016396655" onClick='toggleBox("Output-2016396655", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1342373353" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1342373353">
-[INFO ] [2022-06-09 13:01:28,162] Step 8: Refesh 'Register' 
+<a href="#Output-2016396655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2016396655">
+[INFO ] [2022-06-13 02:56:28,825] Step 8: Refesh 'Register' 
 <br><br/>
-[INFO ] [2022-06-09 13:01:28,642] Step 9: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:56:29,331] Step 9: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:28,878] Step 10: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:56:29,613] Step 10: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:29,115] Step 11: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:56:29,878] Step 11: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:29,326] Step 12: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-13 02:56:30,153] Step 12: Enter to 'Passowrd' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:29,573] Step 13: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-13 02:56:30,444] Step 13: Enter to 'Confirm Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:29,798] Step 14: Click to 'Register' button 
+[INFO ] [2022-06-13 02:56:30,733] Step 14: Click to 'Register' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:29,964] Step 15: Verify error 'Email' message
+[INFO ] [2022-06-13 02:56:30,942] Step 15: Verify error 'Email' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:30,062]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:31,052]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
+<td>2</td>
 <td>com.nopcommerce.user.Register_User_Nopcommerce@45f421c</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Account_User_Nopcommerce.TC_03_Account_Change_Password()'><b>TC_03_Account_Change_Password</b><br>Test class: com.nopcommerce.user.Account_User_Nopcommerce<br/>
-<a href="#Output-181211485" onClick='toggleBox("Output-181211485", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2004513141" onClick='toggleBox("Output-2004513141", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-181211485" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-181211485">
-[INFO ] [2022-06-09 13:02:13,407] Step 3: Click to 'Change password' sub menu
+<a href="#Output-2004513141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2004513141">
+[INFO ] [2022-06-13 02:57:28,447] Step 3: Click to 'Change password' sub menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:14,208] Step 3: Enter to 'Old Password' textbox
+[INFO ] [2022-06-13 02:57:29,276] Step 3: Enter to 'Old Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:14,423] Step 3: Enter to 'New Passowrd' textbox
+[INFO ] [2022-06-13 02:57:29,552] Step 3: Enter to 'New Passowrd' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:14,632] Step 3: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-13 02:57:29,792] Step 3: Enter to 'Confirm Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:14,855] Step 3: Click to 'Change password' button
+[INFO ] [2022-06-13 02:57:30,064] Step 3: Click to 'Change password' button
 <br><br/>
-[INFO ] [2022-06-09 13:02:15,481] Step 3: Close 'Password was changed'
+[INFO ] [2022-06-13 02:57:30,745] Step 3: Close 'Password was changed'
 <br><br/>
-[INFO ] [2022-06-09 13:02:15,640] Step 3: Click to 'Log out' header menu
+[INFO ] [2022-06-13 02:57:30,960] Step 3: Click to 'Log out' header menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:16,414] Step 1: Click to 'Login' link on header menu
+[INFO ] [2022-06-13 02:57:31,785] Step 1: Click to 'Login' link on header menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:17,030] Step 4: Enter  email to 'Email' textbox
+[INFO ] [2022-06-13 02:57:32,446] Step 4: Enter  email to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:17,260] Step 5: Enter old password to 'Password' textbox
+[INFO ] [2022-06-13 02:57:32,736] Step 5: Enter old password to 'Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:17,481] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:57:32,995] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:02:18,080] Step 7: Verify error message 
+[INFO ] [2022-06-13 02:57:33,638] Step 7: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:02:18,161]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:33,743]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:18,161] Step 3: Refesh login page
+[INFO ] [2022-06-13 02:57:33,743] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:02:18,185] Step 4: Enter  email to 'Email' textbox
+[INFO ] [2022-06-13 02:57:33,787] Step 4: Enter  email to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:18,801] Step 5: Enter new password to 'Password' textbox
+[INFO ] [2022-06-13 02:57:34,491] Step 5: Enter new password to 'Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:19,011] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:57:34,751] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:02:19,936] Step 7: Verify 'Log out' header link button display  
+[INFO ] [2022-06-13 02:57:35,713] Step 7: Verify 'Log out' header link button display  
 <br><br/>
-[INFO ] [2022-06-09 13:02:20,016]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:35,803]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>6</td>
+<td>7</td>
 <td>com.nopcommerce.user.Account_User_Nopcommerce@6940f685</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_03_Login_Unregistered_Email()'><b>TC_03_Login_Unregistered_Email</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-548009467" onClick='toggleBox("Output-548009467", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-603374314" onClick='toggleBox("Output-603374314", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-548009467" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-548009467">
-[INFO ] [2022-06-09 13:01:43,703] Step 3: Refesh login page
+<a href="#Output-603374314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-603374314">
+[INFO ] [2022-06-13 02:56:51,713] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:01:43,717] Step 4: Enter ivalid email to email textbox
+[INFO ] [2022-06-13 02:56:51,735] Step 4: Enter ivalid email to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:44,314] Step 5: Enter password to email textbox
+[INFO ] [2022-06-13 02:56:52,429] Step 5: Enter password to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:44,549] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:56:52,672] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:45,152] Step 7: Verify error message 
+[INFO ] [2022-06-13 02:56:53,338] Step 7: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:01:45,228]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:53,431]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -475,48 +474,48 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_03_Register_Valid_Information()'><b>TC_03_Register_Valid_Information</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-195730660" onClick='toggleBox("Output-195730660", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1704039627" onClick='toggleBox("Output-1704039627", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-195730660" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-195730660">
-[INFO ] [2022-06-09 13:01:30,079] Step 16: Refesh 'Register' 
+<a href="#Output-1704039627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704039627">
+[INFO ] [2022-06-13 02:56:31,060] Step 16: Refesh 'Register' 
 <br><br/>
-[INFO ] [2022-06-09 13:01:30,096] Step 17: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:56:31,086] Step 17: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:30,744] Step 18: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:56:31,799] Step 18: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:30,957] Step 19: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:56:32,101] Step 19: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:31,225] Step 20: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-13 02:56:32,381] Step 20: Enter to 'Passowrd' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:31,436] Step 21: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-13 02:56:32,646] Step 21: Enter to 'Confirm Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:31,653] Step 22: Click to 'Register' button 
+[INFO ] [2022-06-13 02:56:32,924] Step 22: Click to 'Register' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:32,713] Step 23: Verify Success Message
+[INFO ] [2022-06-13 02:56:34,195] Step 23: Verify Success Message
 <br><br/>
-[INFO ] [2022-06-09 13:01:32,800]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:34,297]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:01:32,800] Step 24: Click to 'Log out' button
+[INFO ] [2022-06-13 02:56:34,297] Step 24: Click to 'Log out' button
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
+<td>4</td>
 <td>com.nopcommerce.user.Register_User_Nopcommerce@45f421c</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_03_Sort_Price_Low_To_High()'><b>TC_03_Sort_Price_Low_To_High</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-187115616" onClick='toggleBox("Output-187115616", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-772187992" onClick='toggleBox("Output-772187992", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-187115616" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-187115616">
-[INFO ] [2022-06-09 13:02:32,615] Step 1: Click to Sort Low to High
+<a href="#Output-772187992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-772187992">
+[INFO ] [2022-06-13 02:57:48,854] Step 1: Click to Sort Low to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:33,371]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:49,643]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:33,371] Step 2: Click to Sort Low to High
+[INFO ] [2022-06-13 02:57:49,644] Step 2: Click to Sort Low to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:33,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:50,209]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -525,29 +524,29 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Account_User_Nopcommerce.TC_04_Account_My_Product_Review()'><b>TC_04_Account_My_Product_Review</b><br>Test class: com.nopcommerce.user.Account_User_Nopcommerce<br/>
-<a href="#Output-433143044" onClick='toggleBox("Output-433143044", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-414564356" onClick='toggleBox("Output-414564356", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-433143044" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-433143044">
-[INFO ] [2022-06-09 13:02:20,020] Step 3: Click to product by text
+<a href="#Output-414564356" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414564356">
+[INFO ] [2022-06-13 02:57:35,808] Step 3: Click to product by text
 <br><br/>
-[INFO ] [2022-06-09 13:02:21,472] Step 3: Click to 'Add Your Review' link
+[INFO ] [2022-06-13 02:57:37,307] Step 3: Click to 'Add Your Review' link
 <br><br/>
-[INFO ] [2022-06-09 13:02:22,302] Step 3: Enter to 'Review title' textbox
+[INFO ] [2022-06-13 02:57:38,201] Step 3: Enter to 'Review title' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:22,535] Step 3: Enter to 'Review title' textbox
+[INFO ] [2022-06-13 02:57:38,493] Step 3: Enter to 'Review title' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:02:22,749] Step 3: Click to 'Review' radio
+[INFO ] [2022-06-13 02:57:38,762] Step 3: Click to 'Review' radio
 <br><br/>
-[INFO ] [2022-06-09 13:02:22,862] Step 6: Click to 'Submit' button 
+[INFO ] [2022-06-13 02:57:38,879] Step 6: Click to 'Submit' button 
 <br><br/>
-[INFO ] [2022-06-09 13:02:23,776] Step 3: Click to 'My Account' header menu
+[INFO ] [2022-06-13 02:57:39,635] Step 3: Click to 'My Account' header menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:24,379] Step 3: Click to 'My product reviews' sub menu
+[INFO ] [2022-06-13 02:57:40,338] Step 3: Click to 'My product reviews' sub menu
 <br><br/>
-[INFO ] [2022-06-09 13:02:25,274] Step 7: Verify review display  
+[INFO ] [2022-06-13 02:57:41,200] Step 7: Verify review display  
 <br><br/>
-[INFO ] [2022-06-09 13:02:25,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:41,381]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -556,19 +555,19 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Account_User_Nopcommerce@6940f685</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_04_Login_Empty_Password()'><b>TC_04_Login_Empty_Password</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-1284326863" onClick='toggleBox("Output-1284326863", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-871640840" onClick='toggleBox("Output-871640840", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1284326863" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1284326863">
-[INFO ] [2022-06-09 13:01:45,234] Step 3: Refesh login page
+<a href="#Output-871640840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-871640840">
+[INFO ] [2022-06-13 02:56:53,433] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:01:45,262] Step 4: Enter invalid email to email textbox
+[INFO ] [2022-06-13 02:56:53,458] Step 4: Enter invalid email to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:45,883] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:56:54,149] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:46,483] Step 7: Verify error message 
+[INFO ] [2022-06-13 02:56:54,814] Step 7: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:01:46,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:54,912]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -577,69 +576,69 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_04_Register_Short_Password()'><b>TC_04_Register_Short_Password</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-1435836365" onClick='toggleBox("Output-1435836365", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-189560164" onClick='toggleBox("Output-189560164", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1435836365" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1435836365">
-[INFO ] [2022-06-09 13:01:33,727] Step 25: Refesh 'Register' 
+<a href="#Output-189560164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-189560164">
+[INFO ] [2022-06-13 02:56:35,402] Step 25: Refesh 'Register' 
 <br><br/>
-[INFO ] [2022-06-09 13:01:34,813] Step 26: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:56:37,203] Step 26: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:35,051] Step 27: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:56:38,188] Step 27: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:35,291] Step 28: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:56:39,043] Step 28: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:35,521] Step 29: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-13 02:56:39,899] Step 29: Enter to 'Passowrd' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:35,734] Step 30: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-13 02:56:40,955] Step 30: Enter to 'Confirm Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:35,954] Step 31: Click to 'Register' button 
+[INFO ] [2022-06-13 02:56:41,704] Step 31: Click to 'Register' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:36,124] Step 32: Verify error 'Password' message
+[INFO ] [2022-06-13 02:56:42,509] Step 32: Verify error 'Password' message
 <br><br/>
-[INFO ] [2022-06-09 13:01:36,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:42,947]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
+<td>7</td>
 <td>com.nopcommerce.user.Register_User_Nopcommerce@45f421c</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_04_Sort_Price_High_To_Low()'><b>TC_04_Sort_Price_High_To_Low</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-1650828616" onClick='toggleBox("Output-1650828616", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2003247406" onClick='toggleBox("Output-2003247406", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1650828616" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1650828616">
-[INFO ] [2022-06-09 13:02:33,834] Step 1: Click to Sort High to Low
+<a href="#Output-2003247406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003247406">
+[INFO ] [2022-06-13 02:57:50,214] Step 1: Click to Sort High to Low
 <br><br/>
-[INFO ] [2022-06-09 13:02:35,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:51,024]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:35,644] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:51,024] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:37,572]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:51,753]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
+<td>1</td>
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_05_Login_Wrong_Password()'><b>TC_05_Login_Wrong_Password</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-217091223" onClick='toggleBox("Output-217091223", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1996171510" onClick='toggleBox("Output-1996171510", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-217091223" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-217091223">
-[INFO ] [2022-06-09 13:01:46,561] Step 3: Refesh login page
+<a href="#Output-1996171510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1996171510">
+[INFO ] [2022-06-13 02:56:54,913] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:01:46,575] Step 4: Enter invalid email to email textbox
+[INFO ] [2022-06-13 02:56:54,943] Step 4: Enter invalid email to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:47,198] Step 5: Enter password to 'Password' textbox
+[INFO ] [2022-06-13 02:56:55,647] Step 5: Enter password to 'Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:47,418] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:56:55,913] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:48,009] Step 7: Verify error message 
+[INFO ] [2022-06-13 02:56:56,563] Step 7: Verify error message 
 <br><br/>
-[INFO ] [2022-06-09 13:01:48,088]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:56,665]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -648,29 +647,29 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_05_Product_Display_03_Product()'><b>TC_05_Product_Display_03_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-778469013" onClick='toggleBox("Output-778469013", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1773164616" onClick='toggleBox("Output-1773164616", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-778469013" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-778469013">
-[INFO ] [2022-06-09 13:02:37,578] Step 1: Click to Sort A to Z
+<a href="#Output-1773164616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1773164616">
+[INFO ] [2022-06-13 02:57:51,759] Step 1: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,585]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:52,706]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,585] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:52,706] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,819]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:53,163]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,819] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:53,163] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,910]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:53,267]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:38,910] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:53,267] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:39,604]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:54,089]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:39,604] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:54,089] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:39,679]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:54,214]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -679,27 +678,27 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Register_User_Nopcommerce.TC_05_Register_Exist_Email()'><b>TC_05_Register_Exist_Email</b><br>Test class: com.nopcommerce.user.Register_User_Nopcommerce<br/>
-<a href="#Output-1040079319" onClick='toggleBox("Output-1040079319", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1171266471" onClick='toggleBox("Output-1171266471", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1040079319" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1040079319">
-[INFO ] [2022-06-09 13:01:36,214] Step 33: Click to 'Register' link on header menu
+<a href="#Output-1171266471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1171266471">
+[INFO ] [2022-06-13 02:56:42,954] Step 33: Click to 'Register' link on header menu
 <br><br/>
-[INFO ] [2022-06-09 13:01:36,239] Step 34: Enter to 'First Name' textbox
+[INFO ] [2022-06-13 02:56:43,018] Step 34: Enter to 'First Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:36,891] Step 35: Enter to 'Last Name' textbox
+[INFO ] [2022-06-13 02:56:43,736] Step 35: Enter to 'Last Name' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:37,116] Step 36: Enter to 'Email' textbox
+[INFO ] [2022-06-13 02:56:44,020] Step 36: Enter to 'Email' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:37,338] Step 37: Enter to 'Passowrd' textbox
+[INFO ] [2022-06-13 02:56:44,309] Step 37: Enter to 'Passowrd' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:37,566] Step 38: Enter to 'Confirm Password' textbox
+[INFO ] [2022-06-13 02:56:44,577] Step 38: Enter to 'Confirm Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:37,778] Step 39: Click to 'Register' button 
+[INFO ] [2022-06-13 02:56:44,848] Step 39: Click to 'Register' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:38,406] Step 40: Verify Success Message
+[INFO ] [2022-06-13 02:56:45,545] Step 40: Verify Success Message
 <br><br/>
-[INFO ] [2022-06-09 13:01:38,488]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:45,630]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
@@ -708,71 +707,71 @@ function toggleAllBoxes() {
 <td>com.nopcommerce.user.Register_User_Nopcommerce@45f421c</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Login_User_Nopcommerce.TC_06_Login_Success()'><b>TC_06_Login_Success</b><br>Test class: com.nopcommerce.user.Login_User_Nopcommerce<br/>
-<a href="#Output-1551484396" onClick='toggleBox("Output-1551484396", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-292337957" onClick='toggleBox("Output-292337957", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1551484396" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1551484396">
-[INFO ] [2022-06-09 13:01:48,091] Step 3: Refesh login page
+<a href="#Output-292337957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-292337957">
+[INFO ] [2022-06-13 02:56:56,667] Step 3: Refesh login page
 <br><br/>
-[INFO ] [2022-06-09 13:01:48,105] Step 4: Enter invalid email to email textbox
+[INFO ] [2022-06-13 02:56:56,694] Step 4: Enter invalid email to email textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:48,724] Step 5: Enter password to 'Password' textbox
+[INFO ] [2022-06-13 02:56:57,379] Step 5: Enter password to 'Password' textbox
 <br><br/>
-[INFO ] [2022-06-09 13:01:48,932] Step 6: Click to 'Login' button 
+[INFO ] [2022-06-13 02:56:57,631] Step 6: Click to 'Login' button 
 <br><br/>
-[INFO ] [2022-06-09 13:01:49,871] Step 7: Verify 'Log out' header link button display  
+[INFO ] [2022-06-13 02:56:58,589] Step 7: Verify 'Log out' header link button display  
 <br><br/>
-[INFO ] [2022-06-09 13:01:49,942]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:56:58,672]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
+<td>2</td>
 <td>com.nopcommerce.user.Login_User_Nopcommerce@1816e24a</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_06_Product_Display_06_Product()'><b>TC_06_Product_Display_06_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-555754759" onClick='toggleBox("Output-555754759", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1922403930" onClick='toggleBox("Output-1922403930", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-555754759" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-555754759">
-[INFO ] [2022-06-09 13:02:39,682] Step 2: Click to Sort High to High
+<a href="#Output-1922403930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1922403930">
+[INFO ] [2022-06-13 02:57:54,221] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:40,376]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:55,077]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:40,376] Step 1: Click to Sort A to Z
+[INFO ] [2022-06-13 02:57:55,077] Step 1: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-09 13:02:41,104]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:55,984]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:41,104] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:55,984] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:41,448]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:57:56,520]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:41,448] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:57:56,520] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:46,523]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:58:01,618]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>
 <td></td>
-<td>6</td>
+<td>7</td>
 <td>com.nopcommerce.user.Product_User_Nopcommerce@47b179d7</td></tr>
 <tr>
 <td title='com.nopcommerce.user.Product_User_Nopcommerce.TC_07_Product_Display_09_Product()'><b>TC_07_Product_Display_09_Product</b><br>Test class: com.nopcommerce.user.Product_User_Nopcommerce<br/>
-<a href="#Output-3737976" onClick='toggleBox("Output-3737976", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1893654401" onClick='toggleBox("Output-1893654401", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-3737976" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-3737976">
-[INFO ] [2022-06-09 13:02:46,529] Step 1: Click to Sort A to Z
+<a href="#Output-1893654401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893654401">
+[INFO ] [2022-06-13 02:58:01,623] Step 1: Click to Sort A to Z
 <br><br/>
-[INFO ] [2022-06-09 13:02:47,297]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:58:02,417]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:47,297] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:58:02,418] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:47,640]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:58:02,833]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2022-06-09 13:02:47,640] Step 2: Click to Sort High to High
+[INFO ] [2022-06-13 02:58:02,833] Step 2: Click to Sort High to High
 <br><br/>
-[INFO ] [2022-06-09 13:02:52,716]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-06-13 02:58:07,895]  -------------------------- PASSED -------------------------- 
 <br><br/>
 </div>
 </td>

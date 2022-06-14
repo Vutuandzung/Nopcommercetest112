@@ -81,7 +81,7 @@ public class Login_User_Nopcommerce extends BaseTest {
 		loginPage.refreshCurrentPageNopcom(driver);
 
 		log.info("Step 4: Enter invalid email to email textbox");
-		loginPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 
 		log.info("Step 6: Click to 'Login' button ");
 		loginPage.clickToButtonByText(driver, "Log in");
@@ -97,7 +97,7 @@ public class Login_User_Nopcommerce extends BaseTest {
 
 
 		log.info("Step 4: Enter invalid email to email textbox");
-		loginPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 
 		log.info("Step 5: Enter password to 'Password' textbox");
 		loginPage.sendKeyToTextBoxByName(driver, "123123", "Password");
@@ -117,7 +117,7 @@ public class Login_User_Nopcommerce extends BaseTest {
 
 
 		log.info("Step 4: Enter invalid email to email textbox");
-		loginPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 
 		log.info("Step 5: Enter password to 'Password' textbox");
 		loginPage.sendKeyToTextBoxByName(driver, "123456", "Password");

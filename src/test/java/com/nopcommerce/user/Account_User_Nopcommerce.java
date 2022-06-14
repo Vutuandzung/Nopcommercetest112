@@ -17,7 +17,7 @@ import org.testng.annotations.AfterClass;
 
 public class Account_User_Nopcommerce extends BaseTest {
 	WebDriver driver;
-	String firstName, lastName, email, comName, address1, address2, city, zipcode, fax, phone, oldPassword, newPassword;
+	String firstName, lastName, comName, address1, address2, city, zipcode, fax, phone, oldPassword, newPassword;
 
 
 	@Parameters({ "browser", "appUrl", "ipAddress", "port" })
@@ -34,7 +34,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		loginPage = PageObjectGenerator.getPOG().getLoginPageUser(driver);
 		
 		log.info("Step 4: Enter  email to email textbox");
-		loginPage.sendKeyToTextBoxByName(driver, EMAIL_RANDOM, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailRd.get(), "Email");
 		
 		log.info("Step 5: Enter password to 'Password' textbox");
 		loginPage.sendKeyToTextBoxByName(driver, "123456", "Password");
@@ -46,7 +46,6 @@ public class Account_User_Nopcommerce extends BaseTest {
 		
 		firstName = "Automation";
 		lastName = "FC";
-		email = "automationfc.vn@gmail.com";
 		comName = "Automation FC";
 		address1 = "103/04 Le Lai";
 		address2 = "234/05 Hai Phong";
@@ -86,7 +85,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		accountPage.selectDropDownByNameAndText("DateOfBirthYear", "1999");
 
 		log.info("Step 3: Enter to 'Email' textbox");
-		accountPage.sendKeyToTextBoxByName(driver, email, "Email");
+		accountPage.sendKeyToTextBoxByName(driver, emailEdit.get(), "Email");
 
 		log.info("Step 3: Enter to 'Company Name' textbox");
 		accountPage.sendKeyToTextBoxByName(driver, comName, "Company");
@@ -110,7 +109,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		verifyEquals(accountPage.getDropdownfirstText(driver, "DateOfBirthYear"), "1999");
 
 		log.info("Step 3: Verify 'Email' textbox");
-		verifyEquals(accountPage.getTextboxAttribute(driver, "Email", "value"), email);
+		verifyEquals(accountPage.getTextboxAttribute(driver, "Email", "value"), emailEdit.get());
 
 		log.info("Step 3: Verify 'Company' textbox");
 		verifyEquals(accountPage.getTextboxAttribute(driver, "Company", "value"), comName);
@@ -132,7 +131,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		accountPage.sendKeyToTextBoxByName(driver, lastName, "Address.LastName");
 
 		log.info("Step 3: Enter to 'Email' textbox");
-		accountPage.sendKeyToTextBoxByName(driver, email, "Address.Email");
+		accountPage.sendKeyToTextBoxByName(driver, emailEdit.get(), "Address.Email");
 
 		log.info("Step 3: Enter to 'Company' textbox");
 		accountPage.sendKeyToTextBoxByName(driver, comName, "Address.Company");
@@ -168,7 +167,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		verifyTrue(accountPage.isEditFieldDisplayed("name", firstName + " " + lastName));
 
 		log.info("Step 3: Verify 'Email' textbox");
-		verifyTrue(accountPage.isEditFieldDisplayed("email", email));
+		verifyTrue(accountPage.isEditFieldDisplayed("email", emailEdit.get()));
 
 		log.info("Step 3: Verify 'Company' textbox");
 		verifyTrue(accountPage.isEditFieldDisplayed("company", comName));
@@ -221,7 +220,7 @@ public class Account_User_Nopcommerce extends BaseTest {
 		loginPage = PageObjectGenerator.getPOG().getLoginPageUser(driver);
 
 		log.info("Step 4: Enter  email to 'Email' textbox");
-		loginPage.sendKeyToTextBoxByName(driver, email, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailEdit.get(), "Email");
 		
 		log.info("Step 5: Enter old password to 'Password' textbox");
 		loginPage.sendKeyToTextBoxByName(driver, oldPassword, "Password");
@@ -234,12 +233,9 @@ public class Account_User_Nopcommerce extends BaseTest {
 		
 		log.info("Step 3: Refesh login page");
 		loginPage.refreshCurrentPageNopcom(driver);
-//		if (driver.toString().toLowerCase().contains("firefox")) {
-//			loginPage.acceptAlert(driver);
-//		}
-		
+	
 		log.info("Step 4: Enter  email to 'Email' textbox");
-		loginPage.sendKeyToTextBoxByName(driver, email, "Email");
+		loginPage.sendKeyToTextBoxByName(driver, emailEdit.get(), "Email");
 		
 		log.info("Step 5: Enter new password to 'Password' textbox");
 		loginPage.sendKeyToTextBoxByName(driver, newPassword, "Password");

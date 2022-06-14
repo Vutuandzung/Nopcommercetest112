@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Run on Chrome laptop"
+<testsuite name="Run on Chrome desktop"
            tests="5"
            failures="0"
            errors="0"
            skipped="0"
-           time="11.759">
+           time="7.601">
   <properties />
   
   
-            <testcase name="TC_05_Register_Exist_Email" time="2.275" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_02_Register_Invalid_Email" time="1.902" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_03_Register_Valid_Information" time="3.642" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_01_Register_Empty_Data" time="1.461" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
-                <testcase name="TC_04_Register_Short_Password" time="2.479" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+            <testcase name="TC_05_Register_Exist_Email" time="1.443" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_03_Register_Valid_Information" time="2.470" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_04_Register_Short_Password" time="1.590" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_02_Register_Invalid_Email" time="1.228" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
+                <testcase name="TC_01_Register_Empty_Data" time="0.870" classname="com.nopcommerce.user.Register_User_Nopcommerce" />
       
 </testsuite>
